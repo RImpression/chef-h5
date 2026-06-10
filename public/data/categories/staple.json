@@ -1,0 +1,851 @@
+[
+  {
+    "id": "staple/中式馅饼",
+    "title": "中式馅饼的做法",
+    "description": "这道饼外皮微脆内里松软，馅料咸香，属于家常面食。富含碳水化合物和蛋白质，搭配胡萝卜和鸡蛋更添营养。制作难度中等，新手需掌握火候，但步骤明确易上手。从备料到完成大",
+    "ingredients": [
+      "面粉（非自发粉）",
+      "肉沫",
+      "油",
+      "盐",
+      "糖"
+    ],
+    "image": "",
+    "calories": 508,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/凉粉",
+    "title": "凉粉的做法",
+    "description": "凉粉是一道源自四川的传统小吃，口感冰凉爽滑，酸辣开胃，很适合夏天消暑。主要原料是豌豆淀粉，富含碳水化合物，能为身体快速补充能量。制作过程不算复杂，但需要耐心搅煮",
+    "ingredients": [
+      "豌豆淀粉",
+      "大蒜",
+      "小米辣",
+      "辣椒粉",
+      "酱油"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E5%87%89%E7%B2%89/lf1.jpg",
+    "calories": 561,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/利提巧卡",
+    "title": "利提巧卡的做法",
+    "description": "利提巧卡是印度比哈尔邦的传统主食，由烤得金黄的麦球和烟熏风味的蔬菜泥组成，口感外脆内软，香气浓郁。烤鹰嘴豆粉馅料富含植物蛋白和膳食纤维，搭配茄子、番茄、土豆等蔬",
+    "ingredients": [
+      "全麦面粉(Atta)",
+      "烤鹰嘴豆粉(Sattu)— 可用炒熟的鹰嘴豆磨粉替代",
+      "茄子",
+      "番茄",
+      "土豆"
+    ],
+    "image": "",
+    "calories": 372,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/印度烤饼",
+    "title": "印度烤饼的做法",
+    "description": "这是一道印度风味的发酵烤饼，外表微焦酥脆，内部松软有嚼劲，是咖喱的绝佳搭档。富含碳水化合物和蛋白质，酸奶的加入也让面饼更易消化。制作稍有难度，需注意面团软硬和火",
+    "ingredients": [
+      "中筋面粉（或高筋面粉）",
+      "酸奶",
+      "酵母",
+      "糖",
+      "盐"
+    ],
+    "image": "",
+    "calories": 545,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/印度焖饭",
+    "title": "印度焖饭的做法",
+    "description": "印度焖饭是源自莫卧儿帝国时期的皇家料理，米粒细长、香料气息浓郁，鸡肉嫩滑、米饭粒粒分明，层次丰富。富含蛋白质和多种香料精华，能提振食欲。制作步骤较繁琐，对新手不",
+    "ingredients": [
+      "巴斯马蒂长粒香米(Basmati Rice)",
+      "鸡腿肉（去骨，可用羊肉替代）",
+      "酸奶",
+      "洋葱",
+      "番茄"
+    ],
+    "image": "",
+    "calories": 391,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/可乐炒饭",
+    "title": "可乐炒饭的做法",
+    "description": "这道菜以可乐替代糖调味，带来独特的焦香微甜风味，酱汁浓郁包裹粒粒米饭，属于创意家常炒饭。鸡蛋和火腿肠提供优质蛋白质与能量，搭配主食米饭，营养均衡管饱。操作步骤直",
+    "ingredients": [
+      "米饭",
+      "可乐（含糖或无糖均可）",
+      "鸡蛋",
+      "火腿肠（或午餐肉，可选）",
+      "油"
+    ],
+    "image": "",
+    "calories": 564,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/咸肉菜饭",
+    "title": "咸肉菜饭的做法",
+    "description": "这是一道充满上海弄堂风情的家常主食，咸肉的醇香与青菜的清甜在猪油的点化下融进每一粒米饭，既有锅巴焦脆，又保留菜梗爽嫩，层次分明。青菜富含维生素和膳食纤维，咸肉提",
+    "ingredients": [
+      "大米",
+      "青菜（推荐矮脚青菜，又称上海青）",
+      "咸肉（淡咸肉）",
+      "冬笋（可选）",
+      "猪油"
+    ],
+    "image": "",
+    "calories": 500,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/基础牛奶面包",
+    "title": "基础牛奶面包的做法",
+    "description": "这款基础牛奶面包通过酵头预发酵简化了传统面包的制作，成品奶香浓郁，质地松软。富含碳水化合物和蛋白质，能为身体提供能量。难度适中，适合烘焙新手尝试，全程大约需要 ",
+    "ingredients": [
+      "高筋或中筋面粉 *（尽量使用高筋面粉，但**避免使用低筋面粉**。所有无特殊说明的“万能面粉”均为中筋面粉）*",
+      "鸡蛋 *（不过分要求大小及重量）*",
+      "糖 *（如有糖浆是最好的。）*",
+      "干酵母",
+      "盐"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E5%9F%BA%E7%A1%80%E7%89%9B%E5%A5%B6%E9%9D%A2%E5%8C%85/1-1%E6%88%90%E5%93%81.jpg",
+    "calories": 450,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/微波炉腊肠煲仔饭",
+    "title": "微波炉腊肠煲仔饭的做法",
+    "description": "这是一道简单快手的粤式风味主食，米饭吸足腊肠油脂后油润咸香，搭配脆嫩青菜和胡萝卜，口感层次丰富。富含碳水化合物、蛋白质和多种维生素，营养均衡。烹饪用微波炉操作，",
+    "ingredients": [
+      "工具",
+      "- 微波炉",
+      "-",
+      "-",
+      "原料"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD/%E5%BE%AE%E6%B3%A2%E7%82%89%E8%85%8A%E8%82%A0%E7%85%B2%E4%BB%94%E9%A5%AD.png",
+    "calories": 418,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/意式肉酱面",
+    "title": "意式肉酱面的做法",
+    "description": "意式肉酱面是一道简单快手的家常西餐，酱汁浓郁、面条筋道，适合忙碌的日常。肉末和洋葱搭配成品意面酱，能快速补充蛋白质与碳水化合物，洋葱还含有膳食纤维。做法对初学者",
+    "ingredients": [
+      "意大利面",
+      "意大利面酱",
+      "肉沫",
+      "白洋葱（紫洋葱也可以）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E6%84%8F%E5%BC%8F%E8%82%89%E9%85%B1%E9%9D%A2/final.jpg",
+    "calories": 291,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/手工水饺",
+    "title": "手工水饺的做法",
+    "description": "手工水饺是一道中式经典主食，皮薄馅大、鲜美多汁，饱腹又可以根据个人口味随意调味。猪肉馅提供优质蛋白质和脂肪，搭配韭菜还能补充维生素与膳食纤维。这道菜品对新手来说",
+    "ingredients": [
+      "擀面杖",
+      "面粉",
+      "冷水",
+      "直径",
+      "芝麻香油"
+    ],
+    "image": "",
+    "calories": 480,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/扬州炒饭",
+    "title": "扬州炒饭的做法",
+    "description": "这是一道配料丰富的升级版炒饭，米饭粒粒分明，鸡蛋嫩滑，搭配虾仁、午餐肉和蔬菜丁，口感层次鲜明，属于淮扬菜系中的经典主食。富含优质蛋白、碳水化合物和多种维生素，营",
+    "ingredients": [
+      "冷饭（干一点的为佳）",
+      "鸡蛋",
+      "冷冻去皮基围虾",
+      "午餐肉罐头",
+      "青豆"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E6%89%AC%E5%B7%9E%E7%82%92%E9%A5%AD/veg.png",
+    "calories": 342,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/披萨饼皮",
+    "title": "披萨饼皮的做法",
+    "description": "披萨饼皮采用低温隔夜发酵，成品饼底柔软又略带嚼劲，属于家常西式面点。主要提供碳水化合物和少量优质脂肪。制作流程简单，但需要耐心等待面团发酵，对新手也算友好。从准",
+    "ingredients": [
+      "*原料**",
+      "中筋面粉",
+      "水（温水）",
+      "安琪干酵母粉",
+      "食用盐"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E6%8A%AB%E8%90%A8%E9%A5%BC%E7%9A%AE/001.jpeg",
+    "calories": 696,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/日式咖喱饭",
+    "title": "日式咖喱饭的做法",
+    "description": "日式咖喱饭是一道浓郁醇厚的家常和风料理，以咖喱块调味，搭配土豆、胡萝卜、洋葱和肉类，口感顺滑绵密、辛香微甜。它富含蛋白质、碳水与多种维生素，能为身体提供充足能量",
+    "ingredients": [
+      "咖喱块（推荐品牌好侍）",
+      "土豆",
+      "胡萝卜",
+      "洋葱",
+      "肉（猪肉、鸡肉、牛肉均可）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E6%97%A5%E5%BC%8F%E5%92%96%E5%96%B1%E9%A5%AD/%E6%88%90%E5%93%81.jpg",
+    "calories": 272,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/日式肥牛丼饭",
+    "title": "日式肥牛丼饭的做法",
+    "description": "一道经典的日式家常盖饭，肥牛片与白洋葱在咸甜酱汁中炖煮入味，肉质软嫩，洋葱甜润，汁香浓郁。牛肉提供优质蛋白和血红素铁，洋葱富含膳食纤维与多种抗氧化物。制作不算复",
+    "ingredients": [
+      "洋葱（务必选用外皮为白黄色的洋葱，不要用紫色的洋葱）",
+      "肥牛（火锅肥牛即可，也可选用原切肥牛片）",
+      "葱（也可选用切好的葱段）",
+      "白芝麻",
+      "味淋（一种常用日式调料，可在各大电商平台购买，也可用料酒代替）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E6%97%A5%E5%BC%8F%E8%82%A5%E7%89%9B%E4%B8%BC%E9%A5%AD/%E6%88%90%E5%93%81.png",
+    "calories": 80,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/汤面",
+    "title": "汤面的做法",
+    "description": "汤面是一道自由搭配的家常主食，汤汁清爽，面条软滑，兼容各种荤素食材，味道可鲜可淡。它富含碳水化合物和优质蛋白质，搭配蔬菜还能补充维生素与膳食纤维，营养均衡又饱腹",
+    "ingredients": [
+      "面食材料：可以是手工面条、龙须面、面鱼，也可以是泡面面饼、各类规格粉丝，或者是其他任何自己所喜欢的面食形式。",
+      "菜类材料：建议荤素搭配，选择自己喜欢的食材洗干净即可。例如：",
+      "- 牛羊鱼虾等肉类（生熟皆可）",
+      "- 鸡蛋鸭蛋鹅蛋鸵鸟蛋等蛋类",
+      "- 豆块豆筋豆腐皮等豆制品类"
+    ],
+    "image": "",
+    "calories": 139,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/河南蒸面条",
+    "title": "河南蒸面条的做法",
+    "description": "河南蒸面条是源自河南的家常小吃，面条先蒸后炒再蒸，油润入味，口感劲道爽滑。五花肉和蒜薹提供丰富的蛋白质和膳食纤维，搭配主食带来均衡营养。制作步骤稍多一些，但对新",
+    "ingredients": [
+      "挂面 （推荐圆的）",
+      "五花肉",
+      "蒜薹",
+      "葱 + 姜 + 蒜 + 料酒",
+      "盐 + 鸡精 + 十三香"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E6%B2%B3%E5%8D%97%E8%92%B8%E9%9D%A2%E6%9D%A1/%E6%B2%B3%E5%8D%97%E8%92%B8%E9%9D%A2%E6%9D%A1.png",
+    "calories": 800,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/火腿饭团",
+    "title": "火腿饭团的做法",
+    "description": "一道简单快手的日式风味饭团，咸香火腿搭配沙拉酱与海苔，口感丰富饱腹。富含碳水化合物、蛋白质和维生素，能快速补充能量。制作难度极低，新手也能轻松上手，从煮饭到完成",
+    "ingredients": [
+      "火腿",
+      "米饭",
+      "水",
+      "冷冻青豆（可选）",
+      "冷冻玉米粒（可选）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E7%81%AB%E8%85%BF%E9%A5%AD%E5%9B%A2/%E9%A5%AD%E5%9B%A2.png",
+    "calories": 248,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/炒凉粉",
+    "title": "炒凉粉的做法",
+    "description": "炒凉粉是一道山西、陕西地区的特色小吃，入口滑嫩，咸香微辣，带着蒜香和酱香。凉粉主要由淀粉制成，能提供丰富的碳水化合物，快速补充能量。烹饪难度适中，适合有一定基础",
+    "ingredients": [
+      "凉粉",
+      "玉米油",
+      "大蒜",
+      "香葱",
+      "豆瓣酱"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E7%82%92%E5%87%89%E7%B2%89/chaoliangfen.jpg",
+    "calories": 248,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/炒年糕",
+    "title": "炒年糕的做法",
+    "description": "这是一道闽南风味的主食，年糕软糯弹牙，带着葱油的焦香，家常又饱腹。以米粉制成的年糕提供充足碳水化合物，搭配鸡蛋和青菜能补充蛋白质与维生素，营养均衡。做法简单，对",
+    "ingredients": [
+      "年糕/白粿 （形状不限）",
+      "葱",
+      "调味料: 酱油，盐",
+      "（可选）：鸡蛋，青菜"
+    ],
+    "image": "",
+    "calories": 313,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/炒意大利面",
+    "title": "炒意大利面的做法",
+    "description": "这道炒意大利面软糯爽口，搭配肥牛和酱料，酱香浓郁，是带有西式风味的家常主食。富含碳水化合物与蛋白质，能快速补充能量。做法简单，新手也能轻松掌握，全程大约需要 3",
+    "ingredients": [
+      "意大利面",
+      "肥牛片",
+      "番茄酱 / 黑胡椒酱（选其一即可）",
+      "菜籽油（其他植物油也可）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E7%82%92%E6%84%8F%E5%A4%A7%E5%88%A9%E9%9D%A2/a.jpg",
+    "calories": 380,
+    "difficulty": 2
+  },
+  {
+    "id": "staple/炒方便面",
+    "title": "炒方便面的做法",
+    "description": "这道炒方便面口感 Q 弹筋道，咸香入味，是一道改良自传统煮面的家常快手主食。搭配鸡蛋和火腿肠，丰富了蛋白质和能量来源。做法简单，只需注意冷水冲面保持口感，新手也",
+    "ingredients": [
+      "方便面",
+      "鸡蛋",
+      "火腿肠（可选）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E7%82%92%E6%96%B9%E4%BE%BF%E9%9D%A2/%E7%82%92%E6%96%B9%E4%BE%BF%E9%9D%A2.png",
+    "calories": 148,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/炒河粉",
+    "title": "炒河粉的做法",
+    "description": "炒河粉是一道流行于广东地区的经典小吃，讲究镬气十足、干香爽滑，河粉软韧透亮，搭配肉丝、豆芽和黄瓜丝，口感层次丰富。主要提供碳水化合物和蛋白质，蔬菜的加入也补充了",
+    "ingredients": [
+      "炒河粉、猪肉/牛肉",
+      "炒料：盐、味精、老抽、生抽、孜然粉（或直接用河粉料）",
+      "其他调味料：胡椒粉",
+      "黄瓜、面筋块、绿豆芽、鸡蛋、蒜瓣、小葱、淀粉",
+      "盆、盘子"
+    ],
+    "image": "",
+    "calories": 224,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/炒馍",
+    "title": "炒馍的做法",
+    "description": "炒馍是一道咸香酥脆的家常面食，属于北方风味。馒头丁炒至金黄，外脆里软，孜然与五香粉的加入让风味更加浓郁。可搭配鸡蛋提供蛋白质，搭配小葱增添清香，营养均衡。制作难",
+    "ingredients": [
+      "馒头（隔天略硬更好）",
+      "盐",
+      "油",
+      "孜然粉",
+      "五香粉"
+    ],
+    "image": "",
+    "calories": 379,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/炸酱面",
+    "title": "炸酱面的做法",
+    "description": "炸酱面是一道酱香浓郁、面条劲道的传统北京家常面食，搭配清爽菜码，咸甜适口。主要营养来自瘦肉蛋白质和蔬菜维生素，能为人体提供充足能量。做法对新手友好，预计制作时长",
+    "ingredients": [
+      "肉丁/肉末",
+      "面条（挂面或普通面条）",
+      "蒜",
+      "菜码（根据个人喜好选择，通常",
+      "豆瓣酱"
+    ],
+    "image": "",
+    "calories": 317,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/烙饼",
+    "title": "烙饼的做法",
+    "description": "这道家常烙饼层次分明，外皮酥脆内里柔软，带着油酥的焦香，是北方餐桌上常见的主食。主要提供碳水化合物和能量，适合搭配菜肴一起食用。制作需要一点手法，尤其卷酥和擀饼",
+    "ingredients": [
+      "油",
+      "面粉",
+      "电饼铛"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E7%83%99%E9%A5%BC/%E6%88%90%E5%93%81.jpg",
+    "calories": 375,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/芝麻烧饼",
+    "title": "芝麻烧饼的做法",
+    "description": "芝麻烧饼是北方家喻户晓的面点，外皮沾满芝麻酥香可口，内层层次分明、松软适口。面粉提供充足的碳水化合物，芝麻含有丰富的钙和不饱和脂肪酸。制作过程虽然包含揉面、做油",
+    "ingredients": [
+      "面粉",
+      "酵母粉",
+      "白糖",
+      "十三香",
+      "食用油"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E7%83%A7%E9%A5%BC/%E8%8A%9D%E9%BA%BB%E7%83%A7%E9%A5%BC.jpg",
+    "calories": 495,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/热干面",
+    "title": "热干面的做法",
+    "description": "热干面是武汉最具代表性的小吃之一，属于鄂菜系。碱水面条筋道爽滑，裹满浓稠的芝麻酱，搭配酸豆角、萝卜干和肉末，咸香微辣，滋味醇厚。主要提供碳水化合物和蛋白质，芝麻",
+    "ingredients": [
+      "热干面特有的碱水面",
+      "小葱",
+      "酸豆角",
+      "肉末",
+      "蒜水"
+    ],
+    "image": "",
+    "calories": 601,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/照烧鸡腿饭",
+    "title": "照烧鸡腿饭的做法",
+    "description": "照烧鸡腿饭是一道甜咸适口的下饭菜，鸡腿煎得焦香后融入浓郁酱汁，口感嫩滑入味。鸡腿肉富含优质蛋白，搭配西兰花和胡萝卜能补充膳食纤维与维生素。制作稍需一点去骨技巧，",
+    "ingredients": [
+      "鸡腿",
+      "料酒",
+      "生抽",
+      "蜂蜜（可选）",
+      "黑椒碎"
+    ],
+    "image": "",
+    "calories": 361,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/煮泡面加蛋",
+    "title": "煮泡面加蛋的做法",
+    "description": "煮泡面加蛋是一道便捷的快手主食，口感顺滑，汤味浓郁，适合随时填饱肚子。主要提供碳水化合物和蛋白质，能快速补充能量。做法极其简单，只需烧水、煮面、打入鸡蛋煮熟，新",
+    "ingredients": [
+      "泡面",
+      "鸡蛋",
+      "水"
+    ],
+    "image": "",
+    "calories": 148,
+    "difficulty": 2
+  },
+  {
+    "id": "staple/猪油拌饭",
+    "title": "猪油拌饭的做法",
+    "description": "这是一道充满南方家常气息的简单拌饭，米粒被融化的猪油包裹，透着酱油的咸鲜和葱花的清香，是许多孩子食欲不振时的安心之选。主要提供快速碳水与脂肪能量，但胆固醇较高，",
+    "ingredients": [
+      "米饭（推荐用粳米）",
+      "猪油",
+      "生抽（推荐用李锦记或海天）",
+      "老抽",
+      "蚝油（可选）"
+    ],
+    "image": "",
+    "calories": 800,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/电饭煲三文鱼炊饭",
+    "title": "电饭煲三文鱼炊饭的做法",
+    "description": "这是一道融合日式炊饭做法的家常料理，米饭吸饱牛油和三文鱼的香气，口感浓郁鲜香。三文鱼提供优质蛋白和不饱和脂肪酸，搭配菌菇更添膳食纤维。操作极其简单，只需用电饭煲",
+    "ingredients": [
+      "有盐牛油",
+      "三文鱼",
+      "米",
+      "粟米（可选）",
+      "金菇（可选）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E7%94%B5%E9%A5%AD%E7%85%B2%E4%B8%89%E6%96%87%E9%B1%BC%E7%82%8A%E9%A5%AD/%E7%94%B5%E9%A5%AD%E7%85%B2%E4%B8%89%E6%96%87%E9%B1%BC%E7%82%8A%E9%A5%AD.webp",
+    "calories": 493,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/空气炸锅照烧鸡饭",
+    "title": "空气炸锅照烧鸡饭的做法",
+    "description": "这道日式照烧风味的鸡肉饭，甜咸酱汁浓郁，表层烘烤得略微焦脆，内里软嫩多汁，搭配米饭非常下饭。鸡肉和鸡蛋提供丰富的优质蛋白，不过酱油和糖的用量较多，更适合偶尔改善",
+    "ingredients": [
+      "丽滋饼干(Ritz crackers)",
+      "酱油",
+      "糖（白沙糖）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E7%85%A7%E7%83%A7%E9%B8%A1%E9%A5%AD/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E7%85%A7%E7%83%A7%E9%B8%A1%E9%A5%AD.jpg",
+    "calories": 390,
+    "difficulty": 2
+  },
+  {
+    "id": "staple/煮锅蒸米饭",
+    "title": "煮锅蒸米饭的做法",
+    "description": "这是一道朴实无华的家常主食，用普通煮锅就能做出软糯适口的米饭。白米饭主要提供碳水化合物，为身体快速补充能量。做法极为简单，新手只需全程关注火候即可轻松掌握，从下",
+    "ingredients": [
+      "北方大米",
+      "水",
+      "厚底煮锅+严丝合缝的锅盖（制作过程中不会有大量蒸汽泄漏）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E7%B1%B3%E9%A5%AD/rice_regularPot.jpeg",
+    "calories": 105,
+    "difficulty": 2
+  },
+  {
+    "id": "staple/电饭煲蒸米饭",
+    "title": "电饭煲蒸米饭的做法",
+    "description": "一道家喻户晓的基础主食，米香纯粹、口感软糯，因水量调节可偏硬或偏润。富含碳水化合物，能快速补充能量，适合搭配各类菜肴。操作极其简单，新手也能轻松上手，从洗米到焖",
+    "ingredients": [
+      "电饭煲",
+      "江南米或北方大米",
+      "水"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E7%B1%B3%E9%A5%AD/rice_regularPot.jpeg",
+    "calories": 210,
+    "difficulty": 2
+  },
+  {
+    "id": "staple/红芸豆拌饭",
+    "title": "红芸豆拌饭的做法",
+    "description": "这道北印度家常菜是旁遮普邦和德里地区的传统美食，番茄洋葱汤汁浓郁辛香，炖煮后红芸豆软糯入味，与热米饭拌食温暖饱腹。豆子富含蛋白质、膳食纤维和多种微量元素，营养均",
+    "ingredients": [
+      "红芸豆(Kidney Beans / Rajma)",
+      "巴斯马蒂香米或普通大米",
+      "洋葱",
+      "番茄",
+      "生姜"
+    ],
+    "image": "",
+    "calories": 344,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/老友猪肉粉",
+    "title": "老友猪肉粉的做法",
+    "description": "老友猪肉粉酸辣鲜香，米粉爽滑，带着豆豉与酸笋特有的浓郁风味，是典型的南宁家常味。猪肉提供优质蛋白质，米粉则快速补充碳水能量。整体制作中等难度，需注意提前泡发米粉",
+    "ingredients": [
+      "米粉",
+      "猪肉",
+      "酸笋",
+      "剁椒",
+      "豆豉"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E8%80%81%E5%8F%8B%E7%8C%AA%E8%82%89%E7%B2%89/%E8%80%81%E5%8F%8B%E7%8C%AA%E8%82%89%E7%B2%89.jpg",
+    "calories": 504,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/老干妈拌面",
+    "title": "老干妈拌面的做法",
+    "description": "一道香辣开胃的家常快手面食，面条筋道裹满老干妈的豆豉辣香，酱油提鲜，简单却滋味十足。作为主食能快速补充碳水化合物和能量，辣椒素还有助促进食欲。制作毫无门槛，新手",
+    "ingredients": [
+      "面",
+      "老干妈",
+      "酱油"
+    ],
+    "image": "",
+    "calories": 375,
+    "difficulty": 2
+  },
+  {
+    "id": "staple/肉蛋盖饭",
+    "title": "肉蛋盖饭的做法",
+    "description": "这道菜酱香浓郁、咸甜适口，肉馅焦香、鸡蛋嫩滑，盖在热米饭上十分满足，属于家常快手料理。富含优质蛋白质和必需氨基酸，能快速补充能量。做法简单直观，新手也能轻松上手",
+    "ingredients": [
+      "米饭",
+      "鸡蛋",
+      "肉馅",
+      "老抽",
+      "生抽"
+    ],
+    "image": "",
+    "calories": 647,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/茄子肉煎饼",
+    "title": "茄子肉煎饼的做法",
+    "description": "这道家常煎饼融合了腊肉的咸香与茄子的软糯，外皮酥脆、内里绵润，是一道充满乡土风味的米粉主食。它富含碳水化合物和优质蛋白质，茄子还能提供膳食纤维和维生素，荤素搭配",
+    "ingredients": [
+      "米粉（指用大米研磨成的粉）",
+      "小麦粉",
+      "鸡蛋",
+      "煮熟的腊肉",
+      "茄子（买长条状的，越圆越好）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E8%8C%84%E5%AD%90%E8%82%89%E7%85%8E%E9%A5%BC/%E8%8C%84%E5%AD%90%E8%82%89%E7%85%8E%E9%A5%BC.jpg",
+    "calories": 426,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/葱油拌面",
+    "title": "葱油拌面的做法",
+    "description": "葱油拌面是一道经典的上海家常面点，以独特的葱油香味著称，做法简单快捷。富含碳水化合物和脂肪，能快速补充能量。一般初学者只需 20 分钟即可完成，非常适合作为日常",
+    "ingredients": [
+      "干面条",
+      "小葱",
+      "生抽",
+      "老抽",
+      "白糖"
+    ],
+    "image": "",
+    "calories": 225,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/蒸卤面",
+    "title": "蒸卤面的做法",
+    "description": "这是一道豫南地区经典的家常面食，荤素搭配，面条吸足汤汁，口感软韧，咸香入味。五花肉提供优质蛋白质和脂肪，芹菜富含膳食纤维。做法简单易学，新手也能从容上手，整体制",
+    "ingredients": [
+      "猪五花肉",
+      "芹菜",
+      "鲜面条（要求必须是**最细**的，如果附近菜市场没有，请参考制作[焖面](https://note.youdao.com/)）",
+      "葱,姜,蒜",
+      "食用油（花生油最佳）"
+    ],
+    "image": "",
+    "calories": 426,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/蛋包饭",
+    "title": "蛋包饭的做法",
+    "description": "以嫩滑蛋皮包裹茄汁炒饭，口感丰富，酸甜开胃，是一道经典的日式家庭料理。富含蛋白质、碳水和多种维生素，营养均衡。包裹蛋皮需要一点技巧，但整体难度适中，新手也可尝试",
+    "ingredients": [
+      "鸡蛋（建议使用土鸡蛋，口感更香）",
+      "洋葱",
+      "胡萝卜",
+      "玉米粒",
+      "青豆（可选）"
+    ],
+    "image": "",
+    "calories": 260,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/蛋炒饭",
+    "title": "蛋炒饭的做法",
+    "description": "一道家常蛋炒饭，金黄的蛋丝裹着粒粒分明的米饭，搭配火腿、胡萝卜和黄瓜，口感丰富，咸香适口。鸡蛋提供优质蛋白，胡萝卜增添维生素，碳水化合物带来充足能量。制作步骤稍",
+    "ingredients": [
+      "冷饭",
+      "鸡蛋",
+      "火腿",
+      "黄瓜",
+      "胡萝卜"
+    ],
+    "image": "",
+    "calories": 351,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/螺蛳粉",
+    "title": "螺蛳粉的做法",
+    "description": "螺蛳粉是广西柳州的特色小吃，汤鲜味浓，酸辣爽口，米粉软滑筋道。口味上融合了螺蛳汤的鲜美、酸笋的独特发酵风味和辣椒油的刺激，层次分明。作为主食，米粉提供充足碳水化",
+    "ingredients": [
+      "> 出于家常菜考虑，从螺蛳，酸笋等工序开始制作螺蛳粉并不现实，因此本食谱基于袋装螺蛳粉实现。",
+      "袋装螺蛳粉一包，其中应该包含：",
+      "- 米粉",
+      "- 螺蛳肉包（可能放在配料包中）",
+      "- 汤料包"
+    ],
+    "image": "",
+    "calories": 413,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/西红柿鸡蛋挂面",
+    "title": "西红柿鸡蛋挂面的做法",
+    "description": "西红柿鸡蛋挂面是一道家常快手面食，酸甜咸鲜，汤汁浓郁，面条劲道，属于融入北方风味的日常主食。鸡蛋提供优质蛋白，西红柿富含番茄红素和维生素，搭配碳水主食，营养均衡",
+    "ingredients": [
+      "挂面或者鲜面条也行",
+      "西红柿一个",
+      "盐",
+      "鸡蛋",
+      "葱"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E8%A5%BF%E7%BA%A2%E6%9F%BF%E9%B8%A1%E8%9B%8B%E6%8C%82%E9%9D%A2/food.jpg",
+    "calories": 466,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/豆角焖面",
+    "title": "豆角焖面的做法",
+    "description": "豆角焖面是一道北方家常面食，面条吸饱汤汁，口感软韧咸香，带着豆角的清爽和肉片的油润。五花肉提供蛋白质和脂肪，豆角富含膳食纤维和维生素，荤素搭配均衡。整体操作不难",
+    "ingredients": [
+      "鲜面条（韭叶 or 二细<解释见最下方 关于面条粗细区别一栏）",
+      "肉（最好为五花肉）",
+      "盐",
+      "豆角",
+      "鸡精"
+    ],
+    "image": "",
+    "calories": 565,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/酱拌荞麦面",
+    "title": "酱拌荞麦面的做法",
+    "description": "酱拌荞麦面酸甜可口、清凉爽滑，是一道简单快手的家常凉拌面。荞麦面富含膳食纤维和蛋白质，搭配黄瓜、胡萝卜增添清爽口感与维生素，营养均衡。只需煮面、切菜、拌入老干妈",
+    "ingredients": [
+      "荞麦面",
+      "黄瓜",
+      "红萝卜",
+      "老干妈"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E9%85%B1%E6%8B%8C%E8%8D%9E%E9%BA%A6%E9%9D%A2/1.jpeg",
+    "calories": 110,
+    "difficulty": 2
+  },
+  {
+    "id": "staple/酸辣蕨根粉",
+    "title": "酸辣蕨根粉的做法",
+    "description": "酸辣蕨根粉口感爽滑筋道，酸辣开胃，是一道家常凉菜，也可当作主食享用。蕨根粉富含淀粉和膳食纤维，能为身体提供能量。这道菜做法格外简单，对新手非常友好，从准备到完成",
+    "ingredients": [
+      "蕨根粉",
+      "油泼辣子",
+      "酱油",
+      "香醋",
+      "小米辣（可选）"
+    ],
+    "image": "",
+    "calories": 765,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/醪糟小汤圆",
+    "title": "醪糟小汤圆的做法",
+    "description": "醪糟小汤圆是一道香甜软糯的传统中式甜品，酒酿的微酸与糯米的绵滑交融，暖胃又舒心。它富含碳水化合物和少量 B 族维生素，能快速补充能量，也有助促进血液循环。做法毫",
+    "ingredients": [
+      "小汤圆",
+      "醪糟",
+      "白糖",
+      "枸杞（可选）"
+    ],
+    "image": "",
+    "calories": 120,
+    "difficulty": 2
+  },
+  {
+    "id": "staple/陕西油泼面",
+    "title": "陕西油泼面的做法",
+    "description": "这道西北传统面食以筋道的扯面和热油泼出的香辣风味著称，是陕西家喻户晓的日常主食。面条富含碳水化合物，搭配青菜和豆芽，能快速补充能量，膳食搭配合理。整个流程简单明",
+    "ingredients": [
+      "鲜面条（扯面尤佳）![扯面](./chemian.png)",
+      "盐",
+      "葱",
+      "蒜",
+      "干辣椒面（或秦椒面）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E9%99%95%E8%A5%BF%E6%B2%B9%E6%B3%BC%E9%9D%A2/chemian.png",
+    "calories": 485,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/韩式拌饭",
+    "title": "韩式拌饭的做法",
+    "description": "韩式拌饭是一道色彩缤纷、口感丰富的韩国家常料理，甜辣酱汁包裹着米饭、蔬菜、牛肉和溏心蛋，拌匀后一口满足。多种蔬菜提供维生素和膳食纤维，牛肉和鸡蛋补充优质蛋白，营",
+    "ingredients": [
+      "米饭",
+      "鸡蛋",
+      "火锅牛肉卷",
+      "豆芽",
+      "蘑菇"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E9%9F%A9%E5%BC%8F%E6%8B%8C%E9%A5%AD/%E9%9F%A9%E5%BC%8F%E6%8B%8C%E9%A5%AD.png",
+    "calories": 314,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/韭菜盒子",
+    "title": "韭菜盒子的做法",
+    "description": "韭菜盒子是一道传统中式面点，外皮金黄酥脆，内馅鲜香多汁。韭菜搭配虾仁和鸡蛋，富含维生素与优质蛋白质。做法简单，对新手也很友好，从和面到出锅大约需要 2.5 小时",
+    "ingredients": [
+      "韭菜",
+      "虾仁",
+      "鸡蛋",
+      "香油",
+      "盐"
+    ],
+    "image": "",
+    "calories": 444,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/鲜肉烧卖",
+    "title": "鲜肉烧卖的做法",
+    "description": "这是一道江南风味的精致点心，皮薄如纸，馅料饱满多汁，咬开时肉香、笋鲜与皮冻融化后的汤汁交融，咸中带甜，口感软嫩弹牙。猪肉和虾仁提供优质蛋白质，冬笋与香菇增添膳食",
+    "ingredients": [
+      "烧卖皮",
+      "猪肉末（肥瘦",
+      "生姜末",
+      "葱末（只用绿色部分）",
+      "生抽"
+    ],
+    "image": "",
+    "calories": 716,
+    "difficulty": 4
+  },
+  {
+    "id": "staple/鲣鱼海苔玉米饭",
+    "title": "鲣鱼海苔玉米饭的做法",
+    "description": "这是一道鲜香味美的日式简餐，米饭粒粒分明，融合了鲣鱼的咸鲜、海苔的酥香与玉米的甜脆。鲣鱼富含优质蛋白和 DHA，搭配海苔的矿物质和玉米的膳食纤维，营养均衡。做法",
+    "ingredients": [
+      "必备：东北米（金龙鱼",
+      "必备：鲣鱼海苔碎（JD 和淘宝都有，可以搜索：日式拌饭料）",
+      "必备：玉米粒（淘宝搜索：玉米粒 即食）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/staple/%E9%B2%A3%E9%B1%BC%E6%B5%B7%E8%8B%94%E7%8E%89%E7%B1%B3%E9%A5%AD/%E7%B1%B3%E9%A5%AD.jpg",
+    "calories": 315,
+    "difficulty": 1
+  },
+  {
+    "id": "staple/鹰嘴豆炸饼",
+    "title": "鹰嘴豆炸饼的做法",
+    "description": "鹰嘴豆咖喱配油炸面饼是北印度经典街头小吃，松软的炸饼搭配香料浓郁的鹰嘴豆，口感层次丰富，酸辣咸香。鹰嘴豆富含植物蛋白和膳食纤维，饱腹又营养。制作步骤稍多，但跟着",
+    "ingredients": [
+      "鹰嘴豆（干）",
+      "中筋面粉",
+      "酸奶",
+      "洋葱",
+      "番茄"
+    ],
+    "image": "",
+    "calories": 312,
+    "difficulty": 5
+  },
+  {
+    "id": "staple/麻油拌面",
+    "title": "麻油拌面的做法",
+    "description": "麻油香气浓郁，搭配老抽与胡椒粉简单调味，咸香适口，是一道省时省钱的家常拌面。面条提供充足碳水化合物，麻油含有不饱和脂肪酸与维生素 E，能为身体补充能量。制作毫无",
+    "ingredients": [
+      "风干快熟面/任何牌子的快熟面（不需要调味料）",
+      "麻油",
+      "胡椒粉",
+      "老抽",
+      "盐"
+    ],
+    "image": "",
+    "calories": 375,
+    "difficulty": 3
+  },
+  {
+    "id": "staple/麻辣减脂荞麦面",
+    "title": "麻辣减脂荞麦面的做法",
+    "description": "麻辣汤底融合了火锅底料与花生酱、牛奶，口感浓郁顺滑，带有鲜明麻辣风味。搭配高纤维荞麦面与新鲜蔬菜，低卡饱腹，适合减脂期享用。做法毫无难度，无需厨艺基础，全程约 ",
+    "ingredients": [
+      "调味料：火锅底料、花生酱、全脂牛奶、生抽、辣椒油、醋、花椒油",
+      "原料：半干荞麦面、娃娃菜、生菜",
+      "洗菜盆、直径",
+      "> 建议购买方案：",
+      "> 荞麦面：pdd买食尚烩荞麦面，一包400g，价格4.9元，可以做4份"
+    ],
+    "image": "",
+    "calories": 725,
+    "difficulty": 3
+  }
+]

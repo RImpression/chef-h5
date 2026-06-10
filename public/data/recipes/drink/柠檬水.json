@@ -1,0 +1,67 @@
+{
+  "id": "drink/柠檬水",
+  "title": "柠檬水的做法",
+  "category": "drink",
+  "categoryName": "饮品",
+  "description": "这道饮品以新鲜柠檬为主角，搭配果蜜调和，酸甜平衡，冰镇后更感清凉解暑。柠檬富含维生素 C，经常饮用有助于补充营养、提神美白。制作步骤极简，只需捶打、加料、摇晃，",
+  "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E6%9F%A0%E6%AA%AC%E6%B0%B4/%E6%9F%A0%E6%AA%AC%E6%B0%B4.jpg",
+  "calories": 250,
+  "difficulty": 2,
+  "ingredients": [
+    {
+      "name": "原料",
+      "amount": "适量"
+    },
+    {
+      "name": "- 柠檬",
+      "amount": "适量"
+    },
+    {
+      "name": "- 果蜜",
+      "amount": "适量"
+    },
+    {
+      "name": "- 冰（可选）",
+      "amount": "适量"
+    },
+    {
+      "name": "工具",
+      "amount": "适量"
+    },
+    {
+      "name": "- 雪克杯",
+      "amount": "适量"
+    }
+  ],
+  "steps": [
+    {
+      "order": 1,
+      "content": "称 40~45 克柠檬，放入雪克杯中"
+    },
+    {
+      "order": 2,
+      "content": "雪克杯盖盖子锤大约 10 次"
+    },
+    {
+      "order": 3,
+      "content": "加入果蜜 40~45 克"
+    },
+    {
+      "order": 4,
+      "content": "补水"
+    },
+    {
+      "order": 5,
+      "content": "摇晃均匀"
+    },
+    {
+      "order": 6,
+      "content": "最后根据喜好加冰"
+    }
+  ],
+  "tips": [
+    "参考资料：[柠檬水教程](https://v.douyin.com/TVNTcXDi46I)",
+    "如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。"
+  ],
+  "rawMarkdown": "# 柠檬水的做法\n\n![柠檬水成品](./柠檬水.jpg)\n\n这道饮品以新鲜柠檬为主角，搭配果蜜调和，酸甜平衡，冰镇后更感清凉解暑。柠檬富含维生素 C，经常饮用有助于补充营养、提神美白。制作步骤极简，只需捶打、加料、摇晃，新手也能在三五分钟内完成。\n\n预估烹饪难度：★\n\n预估卡路里：141 大卡\n\n## 必备原料和工具\n\n- 原料\n  - 柠檬\n  - 果蜜\n  - 冰（可选）\n- 工具\n  - 雪克杯\n\n## 计算\n\n一杯分量，约 500 毫升\n\n- 柠檬 40~45 克\n- 果蜜 40~45 克\n- 冰几块（可选）\n\n## 操作\n\n1. 称 40~45 克柠檬，放入雪克杯中\n2. 雪克杯盖盖子锤大约 10 次\n3. 加入果蜜 40~45 克\n4. 补水\n5. 摇晃均匀\n6. 最后根据喜好加冰\n\n## 附加内容\n\n- 参考资料：[柠檬水教程](https://v.douyin.com/TVNTcXDi46I)\n\n如果您遵循本指南的制作流程而发现有问题或可以改进的流程，请提出 Issue 或 Pull request 。\n"
+}

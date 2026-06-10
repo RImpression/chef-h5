@@ -1,0 +1,62 @@
+[
+  {
+    "id": "aquatic",
+    "name": "水产",
+    "icon": "🐟",
+    "count": 28
+  },
+  {
+    "id": "breakfast",
+    "name": "早餐",
+    "icon": "🌅",
+    "count": 25
+  },
+  {
+    "id": "condiment",
+    "name": "酱料",
+    "icon": "🧂",
+    "count": 9
+  },
+  {
+    "id": "dessert",
+    "name": "甜品",
+    "icon": "🍰",
+    "count": 19
+  },
+  {
+    "id": "drink",
+    "name": "饮品",
+    "icon": "🥤",
+    "count": 23
+  },
+  {
+    "id": "meat_dish",
+    "name": "荤菜",
+    "icon": "🥩",
+    "count": 108
+  },
+  {
+    "id": "semi-finished",
+    "name": "半成品",
+    "icon": "🥡",
+    "count": 10
+  },
+  {
+    "id": "soup",
+    "name": "汤品",
+    "icon": "🍲",
+    "count": 23
+  },
+  {
+    "id": "staple",
+    "name": "主食",
+    "icon": "🍚",
+    "count": 58
+  },
+  {
+    "id": "vegetable_dish",
+    "name": "素菜",
+    "icon": "🥬",
+    "count": 61
+  }
+]

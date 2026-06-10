@@ -1,0 +1,340 @@
+[
+  {
+    "id": "drink/b52轰炸机",
+    "title": "B52轰炸机的做法",
+    "description": "这款鸡尾酒口感层次分明，入口先是伏特加的烈，紧接着是咖啡奶油的回甘，点燃后饮用有独特的冰火体验，属于经典创意鸡尾酒。咖啡酒与百利甜酒提供了少量咖啡因和奶脂，但整",
+    "ingredients": [
+      "甘露咖啡酒",
+      "爱尔兰百利甜酒",
+      "蓝天原味伏特加",
+      "吧勺",
+      "利口酒杯"
+    ],
+    "image": "",
+    "calories": 250,
+    "difficulty": 2
+  },
+  {
+    "id": "drink/mojito莫吉托",
+    "title": "Mojito莫吉托的做法",
+    "description": "这款鸡尾酒口感清爽酸甜，带有薄荷的清凉和朗姆酒的微醺，是经典的夏季饮品。酒精含量较低，佐以富含维生素 C 的青柠，能生津解渴、提神醒脑。制作十分简单，对新手友好",
+    "ingredients": [
+      "打碎的冰块",
+      "冰镇苏打水",
+      "压汁器",
+      "海波杯",
+      "研杵"
+    ],
+    "image": "",
+    "calories": 250,
+    "difficulty": 3
+  },
+  {
+    "id": "drink/冬瓜茶",
+    "title": "冬瓜茶的做法",
+    "description": "冬瓜茶是一款清爽解暑的传统饮品，口感甘甜柔和，带有冬瓜特有的清香，冰镇后风味更佳。冬瓜本身低热量、富含水分，搭配冰糖熬制，能补充能量、生津止渴。制作不复杂，但对",
+    "ingredients": [
+      "冬瓜",
+      "冰糖",
+      "保鲜膜",
+      "过滤网",
+      "大锅"
+    ],
+    "image": "",
+    "calories": 120,
+    "difficulty": 2
+  },
+  {
+    "id": "drink/冰粉",
+    "title": "冰粉的做法",
+    "description": "石凉粉是河南信阳的传统小吃，口感爽滑如果冻，配以薄荷汁或柠檬汁清凉解暑，属于豫菜系。由冰粉籽手工揉搓而成，天然无添加，含有丰富的植物胶质。制作非常简单，对新手友",
+    "ingredients": [
+      "冰粉籽",
+      "过滤豆浆渣的纱布一块",
+      "凉白开",
+      "薄荷汁",
+      "一次性透明塑料杯（可选）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E5%86%B0%E7%B2%89/%E7%9F%B3%E5%87%89%E7%B2%89(%E5%86%B0%E7%B2%89)%E6%88%90%E5%93%811.jpg",
+    "calories": 80,
+    "difficulty": 2
+  },
+  {
+    "id": "drink/印度奶茶",
+    "title": "印度奶茶的做法",
+    "description": "印度奶茶是一道充满异域风情的家常饮品，以红茶、牛奶和多种香料现煮而成，口感浓郁顺滑，带有生姜、豆蔻、肉桂交织的辛香暖意。牛奶提供优质蛋白和钙质，香料则有助于暖身",
+    "ingredients": [
+      "红茶（CTC 红茶最佳，或阿萨姆红茶）",
+      "全脂牛奶",
+      "生姜",
+      "小豆蔻（绿色）",
+      "肉桂棒"
+    ],
+    "image": "",
+    "calories": 177,
+    "difficulty": 4
+  },
+  {
+    "id": "drink/可乐桶",
+    "title": "可乐桶的做法",
+    "description": "可乐桶是一款简单易调的休闲鸡尾酒，口感清爽甜润，可乐的气泡和柠檬汁很好地中和了威士忌的烈感，适合聚会场合。主要提供能量，柠檬补充维生素 C。整个调配过程只需 5",
+    "ingredients": [
+      "原料",
+      "波旁威士忌",
+      "可口可乐",
+      "冰块",
+      "柠檬（可选，提升口感用）"
+    ],
+    "image": "",
+    "calories": 250,
+    "difficulty": 3
+  },
+  {
+    "id": "drink/奇异果菠菜特调",
+    "title": "奇异果菠菜特调的做法",
+    "description": "这是一道清爽健康的果蔬特饮，口感酸甜细腻，带有奇异果与苹果的天然果香，菠菜味清淡不抢。富含维生素 C 和膳食纤维，有助于促进消化。制作非常简单，新手也能一次成功",
+    "ingredients": [
+      "原料:",
+      "- 奇异果",
+      "- 苹果",
+      "- 菠菜叶（",
+      "- 水"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E5%A5%87%E5%BC%82%E6%9E%9C%E8%8F%A0%E8%8F%9C%E7%89%B9%E8%B0%83/kiwi-example.jpg",
+    "calories": 127,
+    "difficulty": 3
+  },
+  {
+    "id": "drink/奶茶",
+    "title": "奶茶的做法",
+    "description": "这是一道用红茶和奶粉轻松调制的家常饮品，茶香与奶香交融，口感顺滑温暖。红茶中的茶多酚搭配牛奶的蛋白质和钙质，既能提神又补充日常营养。做法非常简单，新手也能一次成",
+    "ingredients": [
+      "袋泡红茶（推荐立顿黄牌精选红茶）",
+      "全脂奶粉或淡奶",
+      "杯子，例如带刻度的杯子，陶瓷杯或保温杯"
+    ],
+    "image": "",
+    "calories": 250,
+    "difficulty": 1
+  },
+  {
+    "id": "drink/杨枝甘露",
+    "title": "杨枝甘露的做法",
+    "description": "这是一道改良版的经典港式甜品，用奇亚籽代替西谷米，口感滑嫩又带有籽粒的细微嚼劲，芒果的香甜与葡萄柚的微酸交织，椰奶增添浓郁。富含膳食纤维、维生素 C 和优质脂肪",
+    "ingredients": [
+      "杯子",
+      "水果刀",
+      "牛奶",
+      "冰块",
+      "调理机/果汁机"
+    ],
+    "image": "",
+    "calories": 80,
+    "difficulty": 2
+  },
+  {
+    "id": "drink/柠檬水",
+    "title": "柠檬水的做法",
+    "description": "这道饮品以新鲜柠檬为主角，搭配果蜜调和，酸甜平衡，冰镇后更感清凉解暑。柠檬富含维生素 C，经常饮用有助于补充营养、提神美白。制作步骤极简，只需捶打、加料、摇晃，",
+    "ingredients": [
+      "原料",
+      "- 柠檬",
+      "- 果蜜",
+      "- 冰（可选）",
+      "工具"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E6%9F%A0%E6%AA%AC%E6%B0%B4/%E6%9F%A0%E6%AA%AC%E6%B0%B4.jpg",
+    "calories": 250,
+    "difficulty": 2
+  },
+  {
+    "id": "drink/泰国手标红茶",
+    "title": "泰国手标红茶的做法",
+    "description": "这是一道源自泰国街头的经典奶茶，茶香浓郁，口感绵密顺滑，炼乳与牛奶带来香甜奶味。茶奶结合可提供少量蛋白质和钙，但含糖量较高，适宜作为消暑解渴的饮品。制作步骤简单",
+    "ingredients": [
+      "水",
+      "茶粉",
+      "炼乳",
+      "白糖",
+      "牛奶"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E6%B3%B0%E5%9B%BD%E6%89%8B%E6%A0%87%E7%BA%A2%E8%8C%B6/%E6%B3%B0%E5%9B%BD%E6%89%8B%E6%A0%87%E7%BA%A2%E8%8C%B6.jpg",
+    "calories": 140,
+    "difficulty": 2
+  },
+  {
+    "id": "drink/海边落日",
+    "title": "海边落日的做法",
+    "description": "这款鸡尾酒色彩层次分明，底部红石榴糖浆似晚霞，中间橙汁透亮，上层蓝橙酒液如海水，整体呈现海边落日的意境，喝起来酸甜清爽，带朗姆酒香。橙汁和柠檬汁含少量维生素 C",
+    "ingredients": [
+      "原料",
+      "红石榴糖浆",
+      "NFC 橙汁",
+      "苏打水",
+      "白朗姆"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E6%B5%B7%E8%BE%B9%E8%90%BD%E6%97%A5/%E6%B5%B7%E8%BE%B9%E8%90%BD%E6%97%A5.jpg",
+    "calories": 120,
+    "difficulty": 4
+  },
+  {
+    "id": "drink/牛油果拉西",
+    "title": "牛油果拉西的做法",
+    "description": "这是一款融合了印度传统酸奶饮品“拉西”的创新饮品，口感绵密顺滑、清甜不腻，特别适合作为早餐或午后提神饮品。牛油果富含单不饱和脂肪酸与膳食纤维，搭配酸奶的优质蛋白",
+    "ingredients": [
+      "原味酸奶 (Plain yogurt)",
+      "熟透的牛油果",
+      "蜂蜜",
+      "冷牛奶",
+      "小豆蔻粉（可选）"
+    ],
+    "image": "",
+    "calories": 327,
+    "difficulty": 2
+  },
+  {
+    "id": "drink/百香果橙子特调",
+    "title": "百香果橙子特调的做法",
+    "description": "这是一道酸甜清爽的夏日饮品，融合了百香果的热带果香与橙子的鲜甜，搭配茉莉绿茶或苏打气泡水，口感层次分明，冰爽解腻。富含维生素 C，有助增强免疫力和滋润肌肤。包含",
+    "ingredients": [
+      "原料:",
+      "- 百香果",
+      "- 橙子",
+      "- 茉莉绿茶茶叶/苏打气泡水二选一",
+      "- 白砂糖"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E7%99%BE%E9%A6%99%E6%9E%9C%E6%A9%99%E5%AD%90%E7%89%B9%E8%B0%83/tea-version.jpg",
+    "calories": 120,
+    "difficulty": 5
+  },
+  {
+    "id": "drink/砂糖椰子冰沙",
+    "title": "砂糖椰子冰沙的做法",
+    "description": "砂糖椰子冰沙是一道极具热带风情的快手冷饮，清甜的椰香融合粗粒黄糖的焦香，口感绵密冰爽。椰子水富含天然电解质与矿物质，能快速补充水分，咖啡调糖增添碳水能量。制作门",
+    "ingredients": [
+      "瓶装椰汁（瓶口较大为佳）",
+      "咖啡调糖（黄色粗粒）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E7%A0%82%E7%B3%96%E6%A4%B0%E5%AD%90%E5%86%B0%E6%B2%99/%E7%A0%82%E7%B3%96%E6%A4%B0%E5%AD%90%E5%86%B0%E6%B2%99-1.jpg",
+    "calories": 120,
+    "difficulty": 1
+  },
+  {
+    "id": "drink/耙耙柑茶",
+    "title": "耙耙柑茶的做法",
+    "description": "耙耙柑茶是一款融合了柑橘清甜与茉莉花香的果茶饮品，口感清爽回甘，属于创意调饮，不限于特定菜系。耙耙柑富含维生素 C 与膳食纤维，搭配绿茶饮用能带来清新提神的体验",
+    "ingredients": [
+      "原料:",
+      "- 耙耙柑（替换物请看附加内容）",
+      "- 茉莉绿茶",
+      "- 冰块",
+      "- [蔗糖糖浆](../../condiment/蔗糖糖浆/蔗糖糖浆.md)（可选）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E8%80%99%E8%80%99%E6%9F%91%E8%8C%B6/citrus-tea.jpg",
+    "calories": 120,
+    "difficulty": 3
+  },
+  {
+    "id": "drink/菠萝咖啡特调",
+    "title": "菠萝咖啡特调的做法",
+    "description": "这道特调饮品融合了咖啡的醇香与菠萝的酸甜，气泡清爽、奶盖绵密，口感层次丰富。菠萝富含维生素 C 和膳食纤维，搭配咖啡能提神醒脑。制作难度中等，只需打发奶油并混合",
+    "ingredients": [
+      "咖啡液（推荐浓缩或者冷萃）",
+      "菠萝汁（鲜榨或者 nfc）",
+      "冰块",
+      "苏打水",
+      "奶油"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E8%8F%A0%E8%90%9D%E5%92%96%E5%95%A1%E7%89%B9%E8%B0%83/%E8%8F%A0%E8%90%9D%E5%92%96%E5%95%A1%E7%89%B9%E8%B0%83.png",
+    "calories": 242,
+    "difficulty": 3
+  },
+  {
+    "id": "drink/酒酿醪糟",
+    "title": "酒酿醪糟的做法",
+    "description": "这是一道传统中式发酵甜品，口感清甜微醺，带着淡淡的酒香。具有健脾开胃、促进消化的作用。制作过程简单有趣，虽然需要等待发酵，但动手操作并不复杂，非常适合作为发酵入",
+    "ingredients": [
+      "糯米",
+      "安琪甜酒曲一包 (8g)（虽然按比例为每",
+      "清水",
+      "蒸锅（电饭煲即可）",
+      "温度计（可选但推荐）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E9%85%92%E9%85%BF%E9%86%AA%E7%B3%9F/%E9%85%92%E9%85%BF%E9%86%AA%E7%B3%9F.jpeg",
+    "calories": 210,
+    "difficulty": 4
+  },
+  {
+    "id": "drink/酸梅汤",
+    "title": "酸梅汤的做法",
+    "description": "酸梅汤是一道酸甜可口、清凉解暑的传统饮品，冰镇后饮用尤为沁人心脾。配方中的乌梅、山楂、甘草等原料有助于生津止渴、消食开胃。做法简单，新手友好，只需浸泡、熬煮和冷",
+    "ingredients": [
+      "水",
+      "乌枣",
+      "乌梅",
+      "山楂片（生）",
+      "黄冰糖"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E9%85%B8%E6%A2%85%E6%B1%A4/imges/sour_plum_soup.jpg",
+    "calories": 158,
+    "difficulty": 3
+  },
+  {
+    "id": "drink/酸梅汤-半成品加工",
+    "title": "酸梅汤（半成品加工）的做法",
+    "description": "酸梅汤（半成品加工）是一道酸甜爽口的夏日消暑饮品，传统京味风格。酸梅汤本身有生津止渴、帮助消化的好处。做法极其简单，只需按顺序搅拌即可，对新手毫无难度，全程大约",
+    "ingredients": [
+      "酸梅晶固体饮料",
+      "方糖（可选）",
+      "北京二锅头酒（可选）"
+    ],
+    "image": "",
+    "calories": 120,
+    "difficulty": 1
+  },
+  {
+    "id": "drink/金汤力",
+    "title": "金汤力的做法",
+    "description": "这是一款经典的金酒鸡尾酒，口感清爽微苦，带有柠檬的明亮酸香与汤力水的细腻气泡，入口轻盈畅快。虽然主要提供水分和少量酒精带来的热量，新鲜柠檬汁能补充维生素 C，帮",
+    "ingredients": [
+      "原料",
+      "金酒",
+      "汤力水气泡水",
+      "柠檬",
+      "冰块"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E9%87%91%E6%B1%A4%E5%8A%9B/gin-tonic.jpg",
+    "calories": 250,
+    "difficulty": 3
+  },
+  {
+    "id": "drink/金菲士",
+    "title": "金菲士的做法",
+    "description": "经典金酒鸡尾酒，酸甜适口，气泡激爽。柠檬提供丰富维 C，搭配蔗糖糖浆平衡酸度。制作非常简单，新手只需 5 分钟即可调制完成，适合在家轻松享用。注意饮酒有害健康，",
+    "ingredients": [
+      "原料",
+      "金酒",
+      "苏打气泡水",
+      "柠檬",
+      "[蔗糖糖浆](../../condiment/蔗糖糖浆/蔗糖糖浆.md)"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/drink/%E9%87%91%E8%8F%B2%E5%A3%AB/gin-fizz.jpg",
+    "calories": 120,
+    "difficulty": 4
+  },
+  {
+    "id": "drink/长岛冰茶",
+    "title": "长岛冰茶的做法",
+    "description": "长岛冰茶是一款口感酷似冰茶、入口柔和但酒精度颇高的经典鸡尾酒。它本身营养价值不高，偶尔小酌可放松身心，但切勿过量。做法非常简单，只需按比例混合四种基酒、甜酒和果",
+    "ingredients": [
+      "金酒",
+      "龙舌兰酒",
+      "伏特加",
+      "白朗姆酒",
+      "橙味甜酒"
+    ],
+    "image": "",
+    "calories": 120,
+    "difficulty": 4
+  }
+]

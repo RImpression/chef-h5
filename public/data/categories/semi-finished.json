@@ -1,0 +1,137 @@
+[
+  {
+    "id": "semi-finished/凉皮",
+    "title": "凉皮的做法",
+    "description": "凉皮是一道源自陕西的家常小吃，口感筋道爽滑，酸辣开胃，带有浓郁的芝麻酱香。芝麻酱和面筋提供了丰富的植物蛋白与钙质，搭配清脆的黄瓜和绿豆芽，富含维生素和膳食纤维。",
+    "ingredients": [
+      "凉皮、面筋",
+      "盐、鸡精、蚝油、生抽、老抽、香油、香醋、芝麻酱（原味芝麻酱最佳）",
+      "黄瓜、大蒜、绿豆芽",
+      "盆、碗、盘子、蒜臼"
+    ],
+    "image": "",
+    "calories": 413,
+    "difficulty": 4
+  },
+  {
+    "id": "semi-finished/半成品意面",
+    "title": "半成品意面的做法",
+    "description": "这是一道利用市售半成品快速完成的西式简餐，面条弹韧有嚼劲，搭配现成酱料风味浓郁。以碳水化合物为主，能迅速补充能量，并含有蛋白质。制作难度极低，新手也能零失误，从",
+    "ingredients": [
+      "1 袋 半成品意大利面（推荐品牌圃美多）",
+      "50 ml 清水",
+      "平底锅 或 微波炉",
+      "> 不同类型的意面烧制时长有所不同，这里是意大利直面的标准。"
+    ],
+    "image": "",
+    "calories": 210,
+    "difficulty": 3
+  },
+  {
+    "id": "semi-finished/懒人蛋挞",
+    "title": "懒人蛋挞的做法",
+    "description": "这道甜品利用现成的蛋挞皮和蛋挞液，外皮酥香、内馅嫩滑，带有焦糖斑点，是经典粤式点心中最易上手的版本。主要成分鸡蛋和牛奶提供了优质蛋白质与钙质，适合作为家庭小点心",
+    "ingredients": [
+      "需要烤箱",
+      "隔热手套",
+      "网购蛋挞液"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/semi-finished/%E6%87%92%E4%BA%BA%E8%9B%8B%E6%8C%9E/%E6%87%92%E4%BA%BA%E8%9B%8B%E6%8C%9E.png",
+    "calories": 250,
+    "difficulty": 2
+  },
+  {
+    "id": "semi-finished/炸薯条",
+    "title": "炸薯条的做法",
+    "description": "炸薯条外酥里软，金黄咸香，属于广受欢迎的快餐小食。土豆提供碳水化合物和膳食纤维，但油炸或空气炸制后热量较高。使用半成品薯条和空气炸锅，操作简单，新手也能轻松上手",
+    "ingredients": [
+      "1 袋半成品薯条（推荐品牌麦肯）",
+      "1 个空气炸锅（喜欢脆的切忌小牌子）",
+      "> 注意，使用的烹饪工具不同炸薯条可能有不同的做法，这里仅介绍使用「空气炸锅」的做法。"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/semi-finished/%E7%82%B8%E8%96%AF%E6%9D%A1/%E7%82%B8%E8%96%AF%E6%9D%A1.jpg",
+    "calories": 250,
+    "difficulty": 2
+  },
+  {
+    "id": "semi-finished/牛油火锅底料",
+    "title": "牛油火锅底料的做法",
+    "description": "这道重庆火锅底料以大量牛油为基底，糅合糍粑辣椒和多种香辛料，熬出的底料麻辣醇厚、香气浓烈，是涮烫毛肚、鸭肠等食材的灵魂。牛油和猪油提供了丰富能量，辣椒与花椒能温",
+    "ingredients": [
+      "牛油",
+      "（色拉油 或 菜籽油）",
+      "纯猪油",
+      "豆瓣（郫县）",
+      "糍粑辣椒"
+    ],
+    "image": "",
+    "calories": 582,
+    "difficulty": 5
+  },
+  {
+    "id": "semi-finished/空气炸锅羊排",
+    "title": "空气炸锅羊排的做法",
+    "description": "这道菜做法超级懒人，用空气炸锅能逼出多余油脂，成品外焦里嫩、蒜香浓郁，风味主要取决于羊排本身品质。羊肉富含优质蛋白和铁、锌等微量元素，有助于温补气血、增强体质。",
+    "ingredients": [
+      "必备：羊排（推荐 JD 购买大庄园 新西兰进口 羔羊法式肩排，500g/袋共三片，JD 打折的话",
+      "必备：黑椒混合牛排调味料（懒）",
+      "必备：蒜蓉酱（推荐川娃子的，同样是因为懒）",
+      "必备：厨房纸",
+      "可选：黄油（JD 买小盒装的，一片一小盒）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/semi-finished/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E7%BE%8A%E6%8E%92/%E7%BE%8A%E6%8E%92.jpg",
+    "calories": 485,
+    "difficulty": 3
+  },
+  {
+    "id": "semi-finished/空气炸锅鸡翅中",
+    "title": "空气炸锅鸡翅中的做法",
+    "description": "这是一道方便省事的家常快手菜，鸡翅外焦里嫩，自带油脂香气，比快餐店的更对胃口。鸡翅中富含优质蛋白和脂肪，能量充足。对新手非常友好，实际操作只需几分钟，全程大约四",
+    "ingredients": [
+      "必备：鸡翅中（推荐买泰森的奥尔良鸡翅中，JD 打折的话",
+      "可选：罗勒碎（撒上去纯粹为了好看）",
+      "可选：云南单山蘸水（代替烧烤料）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/semi-finished/%E7%A9%BA%E6%B0%94%E7%82%B8%E9%94%85%E9%B8%A1%E7%BF%85%E4%B8%AD/%E9%B8%A1%E7%BF%85%E4%B8%AD_0.jpg",
+    "calories": 80,
+    "difficulty": 1
+  },
+  {
+    "id": "semi-finished/速冻水饺",
+    "title": "速冻水饺的做法",
+    "description": "这是一道源自中国的家常面食，采用市售冻饺速成，皮薄馅丰，口感鲜香。佐以醋、姜、蒜等蘸料，滋味更添层次。作为一餐，它能提供充足的蛋白质与碳水，营养饱腹。制作毫无难",
+    "ingredients": [
+      "未过期的一袋速冻水饺"
+    ],
+    "image": "",
+    "calories": 250,
+    "difficulty": 2
+  },
+  {
+    "id": "semi-finished/速冻汤圆",
+    "title": "速冻汤圆的做法",
+    "description": "速冻汤圆是一道快速方便的微波炉甜点，外皮软糯、内馅香甜，属于中式传统小吃。主要提供碳水化合物，能迅速补充能量。做法极易上手，新手也能轻松完成，从准备到出锅仅需大",
+    "ingredients": [
+      "速冻汤圆",
+      "微波炉"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/semi-finished/%E9%80%9F%E5%86%BB%E6%B1%A4%E5%9C%86/%E9%80%9F%E5%86%BB%E6%B1%A4%E5%9C%86.jpg",
+    "calories": 250,
+    "difficulty": 2
+  },
+  {
+    "id": "semi-finished/速冻馄饨",
+    "title": "速冻馄饨的做法",
+    "description": "速冻馄饨皮薄馅嫩，汤清味鲜，是一道便捷的家常面食。主要提供碳水化合物和蛋白质，便于快速补充能量。做法简单，对新手非常友好，使用电饭煲即可完成，从烧水到出锅大约需",
+    "ingredients": [
+      "未过期的一袋速冻馄饨（自带调味料包更佳）",
+      "电饭煲（推荐品牌小米智能电饭煲）",
+      "盐（速冻馄饨无调味料包时）",
+      "鸡精（速冻馄饨无调味料包时）",
+      "胡椒粉（速冻馄饨无调味料包时）"
+    ],
+    "image": "",
+    "calories": 480,
+    "difficulty": 3
+  }
+]

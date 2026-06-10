@@ -1,0 +1,414 @@
+[
+  {
+    "id": "aquatic/咖喱炒蟹",
+    "title": "咖喱炒蟹的做法",
+    "description": "这是一道融合泰式风味的家常海鲜菜，浓郁咖喱包裹着爆满的蟹肉，带有蟹黄香气和椰浆的顺滑口感。螃蟹富含优质蛋白和多种微量元素，有助于补充体力。制作工序清晰，只需注意",
+    "ingredients": [
+      "青蟹（别称：肉蟹）",
+      "咖喱块（推介乐惠蟹黄咖喱）",
+      "洋葱",
+      "椰浆",
+      "鸡蛋"
+    ],
+    "image": "",
+    "calories": 138,
+    "difficulty": 4
+  },
+  {
+    "id": "aquatic/响油鳝丝",
+    "title": "响油鳝丝的做法",
+    "description": "响油鳝丝是一道经典的江浙沪家常菜，鳝丝鲜嫩滑爽，蒜香浓郁，酱汁微甜，淋上热猪油后香气四溢，非常下饭。鳝鱼富含优质蛋白和 DHA，营养丰富。这道菜对刀工和火候有一",
+    "ingredients": [
+      "鳝丝",
+      "大蒜",
+      "姜末",
+      "料酒",
+      "生抽"
+    ],
+    "image": "",
+    "calories": 687,
+    "difficulty": 5
+  },
+  {
+    "id": "aquatic/小龙虾",
+    "title": "小龙虾的做法",
+    "description": "这道菜麻辣鲜香，虾肉细嫩多汁，是经典的川湘风味下酒菜，在家自制干净又实惠。小龙虾富含优质蛋白和多种微量元素，但汤汁含油盐较多，适合偶尔享用。处理活虾和多种香料对",
+    "ingredients": [
+      "小龙虾",
+      "油",
+      "香叶",
+      "八角",
+      "桂皮"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E5%B0%8F%E9%BE%99%E8%99%BE/%E6%88%90%E5%93%81.jpg",
+    "calories": 371,
+    "difficulty": 4
+  },
+  {
+    "id": "aquatic/干煎阿根廷红虾",
+    "title": "干煎阿根廷红虾的做法",
+    "description": "一道鲜美诱人的海鲜快手菜，煎制后的阿根廷红虾肉质白嫩，口感鲜甜浓郁，虾壳酥香。富含碘、磷和虾青素等微量元素，有助于增强免疫力、保护心脏并降低胆固醇。难度适中，需",
+    "ingredients": [
+      "阿根廷红虾（选用了速冻虾）",
+      "海盐（研磨装）",
+      "黑胡椒（研磨装）",
+      "白葡萄酒",
+      "生抽"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E5%B9%B2%E7%85%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%BA%A2%E8%99%BE/%E5%B9%B2%E7%85%8E%E9%98%BF%E6%A0%B9%E5%BB%B7%E7%BA%A2%E8%99%BE.jpg",
+    "calories": 80,
+    "difficulty": 5
+  },
+  {
+    "id": "aquatic/微波葱姜黑鳕鱼",
+    "title": "微波葱姜黑鳕鱼的做法",
+    "description": "微波做鱼，葱姜提鲜，热油一淋，香气四溢，是一道肉质细嫩、滋味咸鲜的家常蒸鱼菜，属于改良粤式做法。黑鳕鱼富含优质蛋白和欧米伽-3 脂肪酸，对心脑健康有益。操作不算",
+    "ingredients": [
+      "原料：",
+      "黑鳕鱼，带皮",
+      "调味料：",
+      "青葱",
+      "姜"
+    ],
+    "image": "",
+    "calories": 740,
+    "difficulty": 4
+  },
+  {
+    "id": "aquatic/水煮鱼",
+    "title": "水煮鱼的做法",
+    "description": "水煮鱼是一道麻辣鲜香、鱼肉嫩滑的经典川菜。巴沙鱼富含优质蛋白且脂肪含量低，搭配时令蔬菜营养均衡。做法中等难度，对新手有一定挑战，但按步骤操作也能成功。预计制作时",
+    "ingredients": [
+      "巴沙鱼",
+      "蔬菜（比如土豆片/豆芽/花菜/生菜/……）",
+      "红油豆瓣酱",
+      "藤椒油",
+      "菜籽油"
+    ],
+    "image": "",
+    "calories": 511,
+    "difficulty": 5
+  },
+  {
+    "id": "aquatic/油焖大虾",
+    "title": "油焖大虾的做法",
+    "description": "这道鲁菜经典以咸甜交融的酱汁包裹整虾，成菜红亮油润，虾肉紧实弹嫩。虾本身富含优质蛋白与虾青素，脂肪含量低，是补充营养又不易增加负担的食材。制作时需要炼葱油、剪虾",
+    "ingredients": [
+      "黑虎虾 or 明虾、",
+      "葱、姜",
+      "料酒、盐、冰糖、植物油"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE/%E6%B2%B9%E7%84%96%E5%A4%A7%E8%99%BE.jpg",
+    "calories": 146,
+    "difficulty": 3
+  },
+  {
+    "id": "aquatic/烤鱼",
+    "title": "烤鱼的做法",
+    "description": "这道川味烤鱼麻辣鲜香，鱼肉外焦里嫩，配菜吸饱汤汁后格外下饭。草鱼富含优质蛋白，搭配多种蔬菜，营养均衡。做法看似复杂，但跟着步骤走其实不难，适合想挑战硬菜的新手。",
+    "ingredients": [
+      "草鱼（农贸市场或者超市让店家杀掉，去除不要的器官）",
+      "大葱",
+      "料酒",
+      "白胡椒粉",
+      "食用盐"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E6%B7%B7%E5%90%88%E7%83%A4%E9%B1%BC/%E7%83%A4%E9%B1%BC.jpg",
+    "calories": 179,
+    "difficulty": 5
+  },
+  {
+    "id": "aquatic/清蒸生蚝",
+    "title": "清蒸生蚝的做法",
+    "description": "清蒸生蚝是一道原汁原味的沿海家常菜，蚝肉鲜嫩多汁，带着淡淡的海水咸香，蒜蓉与姜丝激发出清甜口感。生蚝富含优质蛋白和锌元素，能帮助提升免疫力。操作不算复杂，但掀开",
+    "ingredients": [
+      "生蚝",
+      "葱",
+      "蒜",
+      "姜",
+      "酱油"
+    ],
+    "image": "",
+    "calories": 270,
+    "difficulty": 3
+  },
+  {
+    "id": "aquatic/清蒸鲈鱼",
+    "title": "清蒸鲈鱼的做法",
+    "description": "清蒸鲈鱼是一道粤式经典蒸菜，鱼肉细嫩爽滑，味道清淡鲜美，能最大程度保留鲈鱼的原汁原味。鲈鱼富含优质蛋白和 DHA，营养丰富且易于消化。这道菜操作简单，对新手非常",
+    "ingredients": [
+      "鲈鱼（害怕杀鱼的同学可以让店家帮忙杀）",
+      "香葱",
+      "姜",
+      "食用油",
+      "蒸鱼豉油"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E6%B8%85%E8%92%B8%E9%B2%88%E9%B1%BC/%E6%94%B9%E5%88%80.jpg",
+    "calories": 332,
+    "difficulty": 4
+  },
+  {
+    "id": "aquatic/白灼虾",
+    "title": "白灼虾的做法",
+    "description": "白灼虾是一道粤式经典快手菜，虾肉鲜甜弹嫩，原汁原味。虾本身富含优质蛋白和多种矿物质，搭配蘸料开胃不油腻。做法简单容错率高，对新手非常友好，从备料到出锅大约只需 ",
+    "ingredients": [
+      "活虾",
+      "洋葱",
+      "姜",
+      "蒜",
+      "葱"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E7%99%BD%E7%81%BC%E8%99%BE/%E7%99%BD%E7%81%BC%E8%99%BE.webp",
+    "calories": 678,
+    "difficulty": 4
+  },
+  {
+    "id": "aquatic/糖醋鲤鱼",
+    "title": "糖醋鲤鱼的做法",
+    "description": "糖醋鲤鱼是经典鲁菜，外酥里嫩、酸甜适口，鱼身炸至金黄浇上红亮糖醋汁，十分诱人。鱼肉富含优质蛋白和多种矿物质，易于消化吸收。这道菜对新手不太友好，难度中等偏上，需",
+    "ingredients": [
+      "鲤鱼",
+      "番茄酱",
+      "白糖",
+      "白醋",
+      "淀粉"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E7%B3%96%E9%86%8B%E9%B2%A4%E9%B1%BC/%E8%85%8C%E5%88%B6.jpg",
+    "calories": 157,
+    "difficulty": 5
+  },
+  {
+    "id": "aquatic/红烧鱼",
+    "title": "红烧鱼的做法",
+    "description": "红烧鱼是一道家常风味浓郁的经典菜，咸鲜微甜，鱼肉嫩滑入味，属于大众喜爱的中式烧菜。鱼肉富含优质蛋白和不饱和脂肪酸，营养易吸收。制作时需要处理生鱼和油煎，步骤稍多",
+    "ingredients": [
+      "姜、蒜瓣、干辣椒",
+      "油、盐、料酒、醋、酱油、白砂糖",
+      "鱼",
+      "注意这些材料都是经验计算得出，除了香菜外其他多了并不是一件好事儿",
+      "蚝油"
+    ],
+    "image": "",
+    "calories": 526,
+    "difficulty": 5
+  },
+  {
+    "id": "aquatic/红烧鱼头",
+    "title": "红烧鱼头的做法",
+    "description": "红烧鱼头是一道经典的家常烧菜，鱼头胶质丰富，肉质滑嫩，汤汁咸鲜微辣，十分下饭。鱼头富含优质蛋白、卵磷脂和不饱和脂肪酸，对滋养皮肤和大脑有益。由于需要处理生鱼和剁",
+    "ingredients": [
+      "注：如果有可能，尽量另准备一把菜刀，超市或市场上均有廉价且刀片更厚的菜刀，刀片厚度在",
+      "大葱、姜、大蒜、香菜、美人椒",
+      "油、盐、鸡精、生抽、老抽、陈醋、黑胡椒粉、料酒",
+      "八角、干辣椒",
+      "鱼头一个"
+    ],
+    "image": "",
+    "calories": 332,
+    "difficulty": 5
+  },
+  {
+    "id": "aquatic/红烧鲤鱼",
+    "title": "红烧鲤鱼的做法",
+    "description": "红烧鲤鱼是一道家常鲁菜，鱼肉先炸后炖，外皮微韧，肉质鲜嫩，咸甜酱香中透着五花肉的醇厚，汤汁浓稠下饭。富含优质蛋白和钙、磷等矿物质，有助滋补。处理炸鱼和调味配比稍",
+    "ingredients": [
+      "大葱、姜、大蒜、干辣椒",
+      "油、盐、生抽、老抽、陈醋、蚝油、料酒、白糖",
+      "鲤鱼、五花肉"
+    ],
+    "image": "",
+    "calories": 272,
+    "difficulty": 4
+  },
+  {
+    "id": "aquatic/肉蟹煲",
+    "title": "肉蟹煲的做法",
+    "description": "这道菜酱香浓郁，蟹肉鲜甜微辣，土豆软糯、年糕 Q 弹，汤汁拌饭格外过瘾，属于一道适合聚餐的硬菜。它富含优质蛋白和多种微量元素，营养丰富。制作有一定难度，需处理活",
+    "ingredients": [
+      "肉蟹（推荐优先级从高到低：缅甸黑蟹、青蟹、梭子蟹、大闸蟹）",
+      "虾（可选）",
+      "土豆",
+      "年糕（推荐硬年糕，新鲜年糕亦可）",
+      "洋葱"
+    ],
+    "image": "",
+    "calories": 299,
+    "difficulty": 4
+  },
+  {
+    "id": "aquatic/芥末黄油罗氏虾",
+    "title": "芥末黄油罗氏虾的做法",
+    "description": "这道菜以黄油与芥末的奇妙搭配为亮点，虾肉紧实弹嫩，酱汁浓郁辛香，是一道新派海鲜菜肴。虾肉富含优质蛋白和多种微量元素，营养均衡。制作难度适中，只要提前备好料、控制",
+    "ingredients": [
+      "罗氏虾",
+      "黄油",
+      "芥末",
+      "白糖",
+      "生抽"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E8%8A%A5%E6%9C%AB%E9%BB%84%E6%B2%B9%E7%BD%97%E6%B0%8F%E8%99%BE/%E8%8A%A5%E6%9C%AB%E9%BB%84%E6%B2%B9%E7%BD%97%E6%B0%8F%E8%99%BE.jpg",
+    "calories": 631,
+    "difficulty": 4
+  },
+  {
+    "id": "aquatic/葱油桂鱼",
+    "title": "葱油桂鱼的做法",
+    "description": "葱油桂鱼是一道葱香浓郁、鱼肉鲜嫩的家常蒸菜，属于中式清淡口味，适合各地人群。桂鱼富含优质蛋白和不饱和脂肪酸，经过精细去腥处理，保留了鱼肉的鲜美与营养。做法对新手",
+    "ingredients": [
+      "桂鱼",
+      "小葱",
+      "小米辣",
+      "姜",
+      "料酒"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E8%91%B1%E6%B2%B9%E6%A1%82%E9%B1%BC/10.jpg",
+    "calories": 333,
+    "difficulty": 5
+  },
+  {
+    "id": "aquatic/葱烧海参",
+    "title": "葱烧海参的做法",
+    "description": "这是一道经典的鲁菜家常烧制海味，以浓郁的葱香和软糯入味的海参为特色，汤汁稠亮咸鲜回甜。海参富含胶原蛋白与多种微量元素，对滋养身体很有益处。整体烹饪难度不高，但需",
+    "ingredients": [
+      "泡发好的海参![海参](./海参.jpeg)",
+      "大葱葱白"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82/%E8%91%B1%E7%83%A7%E6%B5%B7%E5%8F%82.jpeg",
+    "calories": 250,
+    "difficulty": 3
+  },
+  {
+    "id": "aquatic/蒜蓉虾",
+    "title": "蒜蓉虾的做法",
+    "description": "这道广东传统名菜以鲜香嫩滑著称，虾肉清甜弹牙，蒜香浓郁扑鼻。海虾富含优质蛋白和钙、硒等微量元素，搭配蒜蓉有助杀菌开胃。做法十分简单，处理虾、铺酱、蒸制、淋油几步",
+    "ingredients": [
+      "海虾",
+      "蒜蓉酱",
+      "食用油",
+      "生抽"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E8%92%9C%E8%93%89%E8%99%BE/1.jpeg",
+    "calories": 296,
+    "difficulty": 3
+  },
+  {
+    "id": "aquatic/蒜香黄油虾",
+    "title": "蒜香黄油虾的做法",
+    "description": "蒜香黄油虾是一道经典的西式海鲜菜，虾肉鲜嫩弹牙，被浓郁的蒜香和黄油包裹，带有淡淡柠檬清香。虾肉富含优质蛋白，搭配黄油提供能量，适合快速补充营养。做法简单，只需几",
+    "ingredients": [
+      "大虾（推荐黑虎虾或基围虾）",
+      "无盐黄油（推荐安佳）",
+      "大蒜",
+      "白葡萄酒（可选）",
+      "柠檬"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E8%92%9C%E9%A6%99%E9%BB%84%E6%B2%B9%E8%99%BE/1.jpg",
+    "calories": 241,
+    "difficulty": 4
+  },
+  {
+    "id": "aquatic/蛏抱蛋",
+    "title": "蛏抱蛋的做法",
+    "description": "蛏抱蛋是福建福州一带的传统家常菜，蛏肉裹着蛋液煎得外酥里嫩，带着洋葱和生抽的咸鲜香气。蛏子富含优质蛋白和锌、铁等微量元素，与鸡蛋搭配营养均衡。制作难度适中，需掌",
+    "ingredients": [
+      "蛏子",
+      "鸡蛋",
+      "食用油",
+      "洋葱",
+      "淀粉"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E8%9B%8F%E6%8A%B1%E8%9B%8B/1.jpeg",
+    "calories": 325,
+    "difficulty": 3
+  },
+  {
+    "id": "aquatic/酱炖蟹",
+    "title": "酱炖蟹的做法",
+    "description": "这道菜是浙江平湖地区的秋日限定咸鲜风味，蟹黄绵润裹着酱香，蟹肉清甜，汤汁拌饭一绝。富含优质蛋白和微量元素。难度适中，适合有基础的新手，从准备到出锅大约 30 分",
+    "ingredients": [
+      "螃蟹（首选河蟹，次选梭子蟹）",
+      "豆瓣酱",
+      "冰糖（可选）",
+      "老抽",
+      "菜油（未脱色的菜籽油，俗称“毛菜油”或“土菜油”，备选花生油）"
+    ],
+    "image": "",
+    "calories": 299,
+    "difficulty": 4
+  },
+  {
+    "id": "aquatic/阳朔啤酒鱼",
+    "title": "阳朔啤酒鱼的做法",
+    "description": "阳朔啤酒鱼是广西阳朔的地方名菜，选用漓江鲜鱼带鳞煎制，以啤酒代水焖煮，鱼鳞酥脆、鱼肉鲜嫩，啤酒香与番茄微酸交融，风味浓郁独特。鱼肉富含优质蛋白和矿物质，搭配番茄",
+    "ingredients": [
+      "剑骨鱼或鲤鱼（约",
+      "漓泉啤酒（一瓶，约",
+      "番茄（2 个）",
+      "青椒（2 个）",
+      "红椒（1 个）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC/%E9%98%B3%E6%9C%94%E5%95%A4%E9%85%92%E9%B1%BC.png",
+    "calories": 427,
+    "difficulty": 5
+  },
+  {
+    "id": "aquatic/香煎翘嘴鱼",
+    "title": "香煎翘嘴鱼的做法",
+    "description": "香煎翘嘴鱼是一道风味浓郁的家常河鲜，鱼身经腌晒后干香紧实，煎至外皮金黄酥脆，肉质细腻咸鲜，带着豆瓣与青椒的微辣回甜。鱼肉富含优质蛋白和不饱和脂肪酸，营养易吸收。",
+    "ingredients": [
+      "翘嘴鱼（肉食性鱼类，肉细腻，口感好）",
+      "姜",
+      "葱",
+      "蒜",
+      "青椒"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E9%A6%99%E7%85%8E%E7%BF%98%E5%98%B4%E9%B1%BC/%E9%A6%99%E7%85%8E%E7%BF%98%E5%98%B4%E9%B1%BC.jpeg",
+    "calories": 189,
+    "difficulty": 5
+  },
+  {
+    "id": "aquatic/鲤鱼炖白菜",
+    "title": "鲤鱼炖白菜的做法",
+    "description": "鲤鱼炖白菜是一道鲜香浓郁的家常炖菜，鱼肉软嫩入味，白菜清甜吸汁，属于典型的北方风味。鲤鱼富含优质蛋白和不饱和脂肪酸，搭配白菜提供膳食纤维和维生素，营养均衡。制作",
+    "ingredients": [
+      "食用油",
+      "姜",
+      "蒜",
+      "鲤鱼",
+      "白菜心/娃娃菜"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E9%B2%A4%E9%B1%BC%E7%82%96%E7%99%BD%E8%8F%9C/%E9%B2%A4%E9%B1%BC%E7%82%96%E7%99%BD%E8%8F%9C.jpeg",
+    "calories": 343,
+    "difficulty": 4
+  },
+  {
+    "id": "aquatic/鳊鱼炖豆腐",
+    "title": "鳊鱼炖豆腐的做法",
+    "description": "鳊鱼炖豆腐是一道家常红烧菜，鱼肉鲜嫩入味，豆腐饱吸汤汁，咸鲜微辣。鳊鱼富含优质蛋白和不饱和脂肪酸，豆腐则提供植物蛋白和钙质，搭配起来营养均衡。制作难度适中，煎鱼",
+    "ingredients": [
+      "鳊鱼（鱼可以让摊主帮忙处理好）",
+      "老豆腐",
+      "姜",
+      "葱",
+      "蒜"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E9%B3%8A%E9%B1%BC%E7%82%96%E8%B1%86%E8%85%90/%E9%B3%8A%E9%B1%BC%E7%82%96%E8%B1%86%E8%85%90.jpg",
+    "calories": 176,
+    "difficulty": 5
+  },
+  {
+    "id": "aquatic/黄油煎虾",
+    "title": "黄油煎虾的做法",
+    "description": "黄油煎虾是一道风味浓郁、虾肉鲜嫩弹牙的家常海鲜菜。鲜虾富含优质蛋白和钙、锌等矿物质，搭配黄油增添了奶香与能量。制作相对简单，只需耐心处理活虾，新手也能顺利上手，",
+    "ingredients": [
+      "鲜虾（强推肉质紧实的九节虾，普通明虾也可以）",
+      "黄油（推荐安佳，一次用一小盒",
+      "黑胡椒粒（瓶磨的那种）",
+      "生抽",
+      "盐"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/aquatic/%E9%BB%84%E6%B2%B9%E7%85%8E%E8%99%BE/%E9%BB%84%E6%B2%B9%E7%85%8E%E8%99%BE.jpg",
+    "calories": 466,
+    "difficulty": 3
+  }
+]

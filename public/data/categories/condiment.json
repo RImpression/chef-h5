@@ -1,0 +1,133 @@
+[
+  {
+    "id": "condiment/油泼辣子",
+    "title": "油泼辣子的做法",
+    "description": "一道香辣扑鼻的陕西风味调味料，红油润泽，芝麻蒜香交织，入口辣而不燥、回味绵长。辣椒富含维生素 C 与辣椒素，能增进食欲、暖身驱寒。制作过程需掌握油温，对新手稍有",
+    "ingredients": [
+      "蒜头",
+      "干辣椒面",
+      "盐",
+      "熟白芝麻",
+      "小米椒"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/condiment/%E6%B2%B9%E6%B3%BC%E8%BE%A3%E5%AD%90/%E5%8F%A3%E6%B0%B4%E9%B8%A1+%E6%B2%B9%E6%B3%BC%E8%BE%A3%E5%AD%90.jpg",
+    "calories": 499,
+    "difficulty": 4
+  },
+  {
+    "id": "condiment/油酥",
+    "title": "油酥的做法",
+    "description": "这是一道中式面点配料，常用于烙饼，能让成品层次分明、外酥里软。主要提供碳水化合物和脂肪，为身体补充能量。做法十分简单，新手友好，预计只需 3 分钟就能调好。",
+    "ingredients": [
+      "面粉",
+      "油",
+      "盐"
+    ],
+    "image": "",
+    "calories": 375,
+    "difficulty": 1
+  },
+  {
+    "id": "condiment/炸串酱料",
+    "title": "炸串酱料的做法",
+    "description": "这款万能炸串酱料香辣浓郁、鲜咸适口，属于街头风味风格。主要提供脂肪和香辛料带来的芳香物质，能增进食欲。制作非常简单，对新手毫无压力，全程只需大约 10 分钟即可",
+    "ingredients": [
+      "干辣椒面（粗细都准备）",
+      "孜然粉",
+      "胡椒粉",
+      "五香粉",
+      "花椒粉"
+    ],
+    "image": "",
+    "calories": 105,
+    "difficulty": 3
+  },
+  {
+    "id": "condiment/简易版炒糖色",
+    "title": "简易版炒糖色的做法",
+    "description": "糖色是中餐红烧类菜肴上色的关键技法，火候到位时能带来红亮光泽与独特的焦香风味。主要成分为糖，提供能量，但更多是调和菜肴色泽与口味。这道简易版炒糖色对火候控制有一",
+    "ingredients": [
+      "糖（任选其一）：",
+      "- 冰糖：炒出来的`糖色`色泽最为鲜艳，红亮，必须水油炒，不加水融化会很慢",
+      "- 白砂糖：必须水油炒，不加水融化会很慢",
+      "- 绵白糖：可以不加水",
+      "炒糖色过程火不要太大！！！电磁炉温度不够，火候过了发苦，不够发甜"
+    ],
+    "image": "",
+    "calories": 480,
+    "difficulty": 3
+  },
+  {
+    "id": "condiment/糖醋汁",
+    "title": "糖醋汁的做法",
+    "description": "这款调味汁酸甜可口，是中餐里糖醋菜肴的经典风味来源。调制简单、比例易记，新手也能轻松上手，从备料到完成约需 10 分钟。糖分能提供能量，醋香有助于开胃解腻，让家",
+    "ingredients": [
+      "清水",
+      "白糖",
+      "白醋/米醋",
+      "料酒",
+      "生抽"
+    ],
+    "image": "",
+    "calories": 225,
+    "difficulty": 2
+  },
+  {
+    "id": "condiment/草莓酱",
+    "title": "草莓酱的做法",
+    "description": "这是一道酸甜可口、果香浓郁的家常果酱，非常适合涂抹面包。草莓富含维生素 C，不过熬煮时糖分较高，可依口味调整。做法非常简单，新手也能轻松搞定，从准备到熬好大约需",
+    "ingredients": [
+      "草莓",
+      "白砂糖",
+      "保鲜膜"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/condiment/%E8%8D%89%E8%8E%93%E9%85%B1/%E6%B4%97%E5%A5%BD%E7%9A%84%E8%8D%89%E8%8E%93.jpeg",
+    "calories": 120,
+    "difficulty": 2
+  },
+  {
+    "id": "condiment/葱油",
+    "title": "葱油的做法",
+    "description": "葱油是一道提香增鲜的家常调味油，带着浓郁的葱香和开洋的复合鲜味，用来拌馅、凉拌或热菜明油都很适合。主要提供油脂能量，葱姜等辛香料还含有植物活性成分，可辅助去腥开",
+    "ingredients": [
+      "油",
+      "葱（大葱小葱都可以）",
+      "姜",
+      "洋葱",
+      "料酒"
+    ],
+    "image": "",
+    "calories": 282,
+    "difficulty": 3
+  },
+  {
+    "id": "condiment/蒜香酱油",
+    "title": "蒜香酱油的做法",
+    "description": "蒜香酱油是一道蒜香浓郁、咸鲜油润的家常蘸料，常用于白切鸡、饺子等菜肴的提味。大蒜和芝麻分别具有抗菌和补充不饱和脂肪酸的作用。做法极其简单，对新手非常友好，全程只",
+    "ingredients": [
+      "蒜头",
+      "白芝麻",
+      "花生油",
+      "酱油",
+      "蘸料碟"
+    ],
+    "image": "",
+    "calories": 439,
+    "difficulty": 2
+  },
+  {
+    "id": "condiment/蔗糖糖浆",
+    "title": "蔗糖糖浆的做法",
+    "description": "自制饮料糖浆，按 1：1 比例将白砂糖与水混合溶解，方便控制冷饮甜度，是调饮的基础配方。富含碳水化合物，能快速补充能量。做法极其简单，对新手非常友好，仅需几分钟",
+    "ingredients": [
+      "原料",
+      "白砂糖",
+      "水",
+      "工具",
+      "可密封容器（建议使用高硼硅试剂瓶，便宜）"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/condiment/%E8%94%97%E7%B3%96%E7%B3%96%E6%B5%86/bottle.jpg",
+    "calories": 240,
+    "difficulty": 2
+  }
+]

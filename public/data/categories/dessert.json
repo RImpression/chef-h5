@@ -1,0 +1,286 @@
+[
+  {
+    "id": "dessert/反沙芋头",
+    "title": "反沙芋头的做法",
+    "description": "反沙芋头是一道外酥里糯、甜香可口的潮汕传统小吃，常作下午茶点。荔浦芋头富含膳食纤维、钾和多种维生素，能提供持久饱腹感。制作不难但需要掌握熬糖火候，适合稍有基础的",
+    "ingredients": [
+      "荔浦芋头（电商平台购买即可，实惠新鲜）",
+      "白砂糖或冰糖",
+      "水",
+      "葱"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E5%8F%8D%E6%B2%99%E8%8A%8B%E5%A4%B4/%E5%8F%8D%E6%B2%99%E8%8A%8B%E5%A4%B4%E6%88%90%E5%93%81.jpg",
+    "calories": 120,
+    "difficulty": 3
+  },
+  {
+    "id": "dessert/咖啡椰奶冻",
+    "title": "咖啡椰奶冻的做法",
+    "description": "这款甜品融合了咖啡的醇厚与椰奶的清甜，口感像布丁般细腻滑嫩，层次丰富。淡奶油和椰汁提供了优质脂肪与植物营养，食用能带来满足感。做法非常友好，只需混合加热，无需复",
+    "ingredients": [
+      "125ml 淡奶油",
+      "250ml 椰树牌椰汁",
+      "35ml espresso 意式浓缩",
+      "50ml 椰子水",
+      "10g 吉利丁(gelatin)"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E5%92%96%E5%95%A1%E6%A4%B0%E5%A5%B6%E5%86%BB/%E5%92%96%E5%95%A1%E6%A4%B0%E5%A5%B6%E5%86%BB.png",
+    "calories": 102,
+    "difficulty": 4
+  },
+  {
+    "id": "dessert/奥利奥冰淇淋",
+    "title": "奥利奥冰淇淋的做法",
+    "description": "奥利奥冰淇淋口感细腻，奶香与奥利奥的酥脆甜蜜相融，纯动物奶油令整体轻盈不腻。它主要提供能量，含有脂肪和碳水化合物，适合作为消暑小甜点。制作过程较为简单，只需处理",
+    "ingredients": [
+      "淡奶油（推荐品牌 安佳动物淡奶油）",
+      "原味奥利奥",
+      "电动打蛋器",
+      "一个容量在",
+      "小刀（或者可以去除夹心的工具）"
+    ],
+    "image": "",
+    "calories": 102,
+    "difficulty": 4
+  },
+  {
+    "id": "dessert/戚风蛋糕",
+    "title": "戚风蛋糕的做法",
+    "description": "这道烘焙入门甜品口感细腻绵软，拥有云朵般的轻盈质地，属于西点中的经典基础款。主要原料鸡蛋和牛奶提供了优质蛋白与钙质，营养丰富。制作过程对打发、翻拌及烘烤火候要求",
+    "ingredients": [
+      "烤箱（电饭锅可替代，但大多情况下由于锅胆材质问题易失败）",
+      "打蛋器（电动最好，手动费力且有一定失败概率）或筷子（非常不推荐）",
+      "铝合金阳极模具（千万不能选不沾模具，常用尺寸为",
+      "刮刀（用于翻拌蛋糕糊）",
+      "鸡蛋"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E6%88%9A%E9%A3%8E%E8%9B%8B%E7%B3%95/IMG_1516.jpg",
+    "calories": 405,
+    "difficulty": 5
+  },
+  {
+    "id": "dessert/提拉米苏",
+    "title": "提拉米苏的做法",
+    "description": "这道意大利传统甜品无需烤箱，奶酪糊绵密轻盈，浸润咖啡液的手指饼干香醇柔软，属于入门级甜点。富含蛋白质和钙质，但糖分与热量较高，宜偶尔享用。操作简便，对烘焙新手十",
+    "ingredients": [
+      "马斯卡彭芝士",
+      "手指饼干",
+      "放凉浓缩咖啡",
+      "无菌鸡蛋",
+      "白砂糖"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E6%8F%90%E6%8B%89%E7%B1%B3%E8%8B%8F/%E6%8F%90%E6%8B%89%E7%B1%B3%E8%8B%8F%E6%88%90%E5%93%81.jpg",
+    "calories": 268,
+    "difficulty": 4
+  },
+  {
+    "id": "dessert/无厨师机蜂蜜面包",
+    "title": "无厨师机蜂蜜面包的做法",
+    "description": "这是一款无需厨师机的家常蜂蜜小面包，松软香甜，底部略带脆感，表面刷满蜂蜜水再撒上芝麻，透着朴实的甜香。主要用料为高筋面粉、牛奶、鸡蛋和黄油，提供充足的碳水化合物",
+    "ingredients": [
+      "面包本体",
+      "高筋面粉：400g",
+      "牛奶:",
+      "酵母：4g",
+      "鸡蛋：1 个"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E6%97%A0%E5%8E%A8%E5%B8%88%E6%9C%BA%E8%9C%82%E8%9C%9C%E9%9D%A2%E5%8C%85/%E6%97%A0%E5%8E%A8%E5%B8%88%E6%9C%BA%E8%9C%82%E8%9C%9C%E9%9D%A2%E5%8C%85.jpg",
+    "calories": 405,
+    "difficulty": 5
+  },
+  {
+    "id": "dessert/炸鲜奶",
+    "title": "炸鲜奶的做法",
+    "description": "炸鲜奶是一道外酥里嫩、香甜可口的经典甜点，属于家常小吃。富含蛋白质和钙质，营养较均衡。制作难度中等，新手也能上手，预计操作时长约 20 分钟，但需要提前 1 小",
+    "ingredients": [
+      "牛奶",
+      "玉米淀粉",
+      "面包糠",
+      "鸡蛋",
+      "白糖"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E7%82%B8%E9%B2%9C%E5%A5%B6/%E7%82%B8%E9%B2%9C%E5%A5%B6.jpg",
+    "calories": 332,
+    "difficulty": 4
+  },
+  {
+    "id": "dessert/烤箱版巴斯克芝士蛋糕",
+    "title": "烤箱版巴斯克芝士蛋糕的做法",
+    "description": "巴斯克芝士蛋糕是一道口感浓郁绵密、表面焦香内部湿润的甜品，属于西班牙巴斯克地区的经典风味。主要原料为奶油奶酪和鸡蛋，富含优质蛋白质和钙质。制作过程非常简单，新手",
+    "ingredients": [
+      "奶油奶酪：212g （这是一块的质量，比较方便，原教程是",
+      "白砂糖：60g",
+      "鸡蛋：2 个",
+      "鸡蛋黄：1 个",
+      "淡奶油：120g"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E7%83%A4%E7%AE%B1%E7%89%88%E5%B7%B4%E6%96%AF%E5%85%8B%E8%8A%9D%E5%A3%AB%E8%9B%8B%E7%B3%95/%E7%83%A4%E7%AE%B1%E7%89%88%E5%B7%B4%E6%96%AF%E5%85%8B%E8%8A%9D%E5%A3%AB%E8%9B%8B%E7%B3%95.jpg",
+    "calories": 391,
+    "difficulty": 4
+  },
+  {
+    "id": "dessert/烤蛋挞",
+    "title": "烤蛋挞的做法",
+    "description": "烤蛋挞是一款经典的中式甜品，外皮酥脆、内馅嫩滑，奶香浓郁。富含蛋白质、钙质和多种维生素，能提供丰富能量。制作过程十分简单，新手也能轻松上手，而且半成品可冷冻保存",
+    "ingredients": [
+      "该配方为整包蛋挞皮所需量 填充后可直接冷冻保存",
+      "蛋挞皮 品牌不限",
+      "鸡蛋",
+      "牛奶",
+      "淡奶油"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E7%83%A4%E8%9B%8B%E6%8C%9E/%E7%83%A4%E8%9B%8B%E6%8C%9E.png",
+    "calories": 285,
+    "difficulty": 5
+  },
+  {
+    "id": "dessert/玛格丽特饼干",
+    "title": "玛格丽特饼干的做法",
+    "description": "玛格丽特饼干口感酥松，黄油香气浓郁，是一款经典的西式小甜点。它主要由蛋黄、黄油和面粉制成，含有丰富的碳水化合物与脂肪，能快速补充能量。制作难度适中，从准备到出炉",
+    "ingredients": [
+      "熟蛋黄",
+      "黄油",
+      "白砂糖",
+      "盐",
+      "低筋面粉"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E7%8E%9B%E6%A0%BC%E4%B8%BD%E7%89%B9%E9%A5%BC%E5%B9%B2/%E7%8E%9B%E6%A0%BC%E4%B8%BD%E7%89%B9%E9%A5%BC%E5%B9%B2.jpg",
+    "calories": 545,
+    "difficulty": 4
+  },
+  {
+    "id": "dessert/红柚蛋糕",
+    "title": "红柚蛋糕的做法",
+    "description": "红柚蛋糕是一道用空气炸锅就能轻松完成的清新甜点，融合了红柚果粒的微酸果香与蛋糕的松软口感，适合作为单人份下午茶。鸡蛋和面粉提供蛋白质与碳水，红柚富含维生素 C，",
+    "ingredients": [
+      "空气炸锅",
+      "鸡蛋",
+      "红柚果肉",
+      "面粉",
+      "锡纸盘"
+    ],
+    "image": "",
+    "calories": 538,
+    "difficulty": 4
+  },
+  {
+    "id": "dessert/胡萝卜甜糕",
+    "title": "胡萝卜甜糕的做法",
+    "description": "胡萝卜甜糕是印度家喻户晓的冬季甜品，胡萝卜丝与牛奶慢炖浓缩，融入酥油和坚果，口感绵密香甜、色泽金红。富含胡萝卜素、钙质和优质脂肪，暖身滋养。制作过程简单，但对新",
+    "ingredients": [
+      "胡萝卜（建议选用红色胡萝卜）",
+      "全脂牛奶",
+      "糖",
+      "酥油(Ghee)— 可用黄油替代",
+      "小豆蔻粉(Cardamom Powder)"
+    ],
+    "image": "",
+    "calories": 324,
+    "difficulty": 5
+  },
+  {
+    "id": "dessert/芋泥雪媚娘",
+    "title": "芋泥雪媚娘的做法",
+    "description": "芋泥雪媚娘外皮软糯 Q 弹，内馅是细腻香甜的芋泥与轻盈奶油，口感层次丰富，是一道源自家常创意的中式甜品。芋头和紫薯提供膳食纤维与花青素，牛奶和淡奶油补充钙质，营",
+    "ingredients": [
+      "荔浦芋头（电商平台购买即可，实惠新鲜）",
+      "紫薯粉",
+      "牛奶",
+      "糯米粉",
+      "玉米淀粉"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E8%8A%8B%E6%B3%A5%E9%9B%AA%E5%AA%9A%E5%A8%98/%E8%8A%8B%E6%B3%A5%E9%9B%AA%E5%AA%9A%E5%A8%98%E6%88%90%E5%93%81.jpg",
+    "calories": 450,
+    "difficulty": 4
+  },
+  {
+    "id": "dessert/英式司康",
+    "title": "英式司康的做法",
+    "description": "英式司康是一款经典英式下午茶点心，外酥内软，蛋奶香气浓郁，搭配果酱或奶油食用风味更佳。它主要由面粉、黄油、鸡蛋和淡奶油制成，富含碳水化合物和蛋白质，能快速补充能",
+    "ingredients": [
+      "无盐黄油（推荐品牌总统）",
+      "低筋面粉",
+      "糖",
+      "盐",
+      "泡打粉"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E8%8B%B1%E5%BC%8F%E5%8F%B8%E5%BA%B7/%E8%8B%B1%E5%BC%8F%E5%8F%B8%E5%BA%B7.png",
+    "calories": 458,
+    "difficulty": 4
+  },
+  {
+    "id": "dessert/草莓冰淇淋",
+    "title": "草莓冰淇淋的做法",
+    "description": "这是一道不需要搅拌机就能轻松制作的家常草莓冰淇淋，果香浓郁、口感绵密。草莓富含维生素 C，搭配奶香四溢的炼乳和奶油，能提供能量和钙质。做法简单不考验厨艺，新手也",
+    "ingredients": [
+      "加糖炼乳",
+      "草莓",
+      "重奶油",
+      "香草精",
+      "冰淇淋模具（可选）"
+    ],
+    "image": "",
+    "calories": 222,
+    "difficulty": 3
+  },
+  {
+    "id": "dessert/酸奶意式奶冻",
+    "title": "酸奶意式奶冻的做法",
+    "description": "一道改良自意大利经典的甜品，融入原味酸奶后口感更为清爽顺滑，甜而不腻，适合作为餐后小点搭配水果或果酱。奶制品带来丰富的钙质和蛋白质，营养温和。制作步骤简单，只需",
+    "ingredients": [
+      "淡奶油",
+      "糖",
+      "原味酸奶",
+      "吉利丁片",
+      "筛网"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E9%85%B8%E5%A5%B6%E6%84%8F%E5%BC%8F%E5%A5%B6%E5%86%BB/%E9%85%B8%E5%A5%B6%E6%84%8F%E5%BC%8F%E5%A5%B6%E5%86%BB.png",
+    "calories": 222,
+    "difficulty": 3
+  },
+  {
+    "id": "dessert/雪花酥",
+    "title": "雪花酥的做法",
+    "description": "雪花酥是一道口感酥脆香甜、奶香浓郁的小甜点，属于简单快手的家常烘焙，也很适合装盒送礼。由于含有黄油、奶粉和混合坚果，能提供丰富的能量和蛋白质，不过热量较高，适合",
+    "ingredients": [
+      "不粘平底锅",
+      "烘焙刮刀（可用锅铲代替，小心使用破坏不粘锅涂层）",
+      "一次性塑料手套",
+      "雪花酥/牛轧糖模具",
+      "擀面杖"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E9%9B%AA%E8%8A%B1%E9%85%A5/%E9%9B%AA%E8%8A%B1%E9%85%A5%E6%88%90%E5%93%81.jpg",
+    "calories": 560,
+    "difficulty": 4
+  },
+  {
+    "id": "dessert/魔芋蛋糕",
+    "title": "魔芋蛋糕的做法",
+    "description": "魔芋蛋糕是一款低热量、无麸质的甜点，用赤藓糖醇代替白砂糖，口感轻盈湿润，带有可可香气，尤其适合减脂人群。它富含膳食纤维和蛋白质，饱腹感强。制作有一定难度，需要打",
+    "ingredients": [
+      "烤箱",
+      "电动打蛋器",
+      "金属蛋糕模具（形状任意）",
+      "烘焙纸",
+      "餐刀（用于翻拌和抹平蛋糕糊）"
+    ],
+    "image": "",
+    "calories": 163,
+    "difficulty": 5
+  },
+  {
+    "id": "dessert/龟苓膏",
+    "title": "龟苓膏的做法",
+    "description": "龟苓膏是一道广式传统甜品，口感嫩滑微苦回甘，常作为夏日消暑小食。龟苓膏能清热祛湿、滋阴养颜，是营养健康的一款点心。做法简单，新手也能轻松掌握，全程只需备料、搅拌",
+    "ingredients": [
+      "龟苓膏粉",
+      "冷水",
+      "开水",
+      "白砂糖",
+      "小锅"
+    ],
+    "image": "https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/dishes/dessert/%E9%BE%9F%E8%8B%93%E8%86%8F/%E9%BE%9F%E8%8B%93%E8%86%8F%E6%88%90%E5%93%81.jpg",
+    "calories": 120,
+    "difficulty": 4
+  }
+]
