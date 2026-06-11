@@ -1,0 +1,8 @@
+{
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
+  "framework": "vite",
+  "rewrites": [
+    { "source": "/((?!data|icons|logo|default-dish|logo-text).*)", "destination": "/index.html" }
+  ]
+}

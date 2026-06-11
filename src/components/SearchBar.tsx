@@ -29,7 +29,7 @@ export function SearchBar({
 
   const handleChange = (newValue: string) => {
     setInputValue(newValue);
-    clearTimeout(debounceTimer.current);
+    clearTimeout(debounceTimer.current ?? undefined);
     debounceTimer.current = setTimeout(() => {
       onSearch(newValue);
     }, 300);
