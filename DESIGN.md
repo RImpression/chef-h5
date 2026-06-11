@@ -467,3 +467,260 @@ box-shadow: 0 2px 12px rgba(123, 160, 91, 0.15);
 3. **深色模式**：TailwindCSS dark mode 一键切换
 4. **食材搜索增强**："冰箱里有什么就做什么" 多食材交集搜索
 5. **分享功能**：生成菜谱卡片图片，分享到社交平台
+6. **烹饪技巧模块**：迁入 HowToCook tips 目录的教学内容（详见第十一节）
+
+---
+
+## 十一、烹饪技巧模块设计
+
+### 11.1 数据分析
+
+HowToCook 仓库 `tips/` 目录包含 **17 篇** Markdown 教学文章，天然分为 4 个主题分组：
+
+| 分组 | 目录位置 | 文章数 | 内容概述 |
+|------|----------|--------|----------|
+| 🔧 厨房准备 | `tips/厨房准备.md` | 1 | 厨房基础物品清单、工具准备 |
+| 🤔 选择吃什么 | `tips/如何选择现在吃什么.md` | 1 | 用数学方式决策吃什么 |
+| 📖 基础学习 | `tips/learn/*.md` | 11 | 去腥、凉拌、炒煎、焯水、煮、腌、蒸、微波炉、空气炸锅、食品安全、高压力锅 |
+| 🎓 高级技巧 | `tips/advanced/*.md` | 4 | 油温判断、糖色炒制、辅料技巧、专业术语 |
+
+各文章行数分布（5~171 行），均为纯 Markdown 文本，无图片依赖。
+
+### 11.2 数据模型
+
+```typescript
+/** 技巧分组 */
+interface TipGroup {
+  id: string;           // 分组标识：preparation / decision / learn / advanced
+  name: string;         // 中文名："厨房准备" / "选择吃什么" / "基础学习" / "高级技巧"
+  icon: string;         // emoji 图标
+  description: string;  // 分组简介
+  articles: TipArticleMeta[];
+}
+
+/** 技巧文章索引项 */
+interface TipArticleMeta {
+  id: string;           // 文章标识（拼音化文件名，如 "learn/qu-xing"）
+  title: string;        // 文章标题（从 Markdown # 提取）
+  group: string;        // 所属分组 id
+  summary: string;      // 摘要（正文前 60 字）
+}
+
+/** 技巧文章完整数据 */
+interface TipArticle extends TipArticleMeta {
+  content: string;      // 完整 Markdown 正文
+  sections: TipSection[];  // 二级标题拆分的段落
+}
+
+/** 文章段落（按 ## 拆分） */
+interface TipSection {
+  title: string;        // 段落标题
+  content: string;      // 段落 Markdown 内容
+}
+```
+
+### 11.3 数据文件结构
+
+构建脚本产出以下静态 JSON 文件，与现有菜谱数据目录平行：
+
+```
+public/data/
+├── tips.json                    # 技巧索引（所有分组 + 文章元信息，~3KB）
+└── tips/                        # 单篇文章完整数据（按需懒加载）
+    ├── preparation/
+    │   └── chu-fang-zhun-bei.json
+    ├── decision/
+    │   └── ru-he-xuan-ze-chi-shen-me.json
+    ├── learn/
+    │   ├── qu-xing.json
+    │   ├── xue-xi-liang-ban.json
+    │   ├── xue-xi-chao-yu-jian.json
+    │   ├── xue-xi-chao-shui.json
+    │   ├── xue-xi-zhu.json
+    │   ├── xue-xi-yan.json
+    │   ├── xue-xi-zheng.json
+    │   ├── wei-bo-lu.json
+    │   ├── kong-qi-zha-guo.json
+    │   ├── shi-pin-an-quan.json
+    │   └── gao-ya-li-guo.json
+    └── advanced/
+        ├── you-wen-pan-duan-ji-qiao.json
+        ├── tang-se-de-chao-zhi.json
+        ├── fu-liao-ji-qiao.json
+        └── gao-ji-zhuan-ye-shu-yu.json
+```
+
+### 11.4 构建脚本扩展
+
+在现有 `scripts/` 中新增 `parseTips.ts`，负责：
+
+1. 遍历 `.cache/HowToCook/tips/` 目录，按文件结构映射到 4 个分组
+2. 解析每个 Markdown 文件：提取标题、摘要、按 `##` 拆分段落
+3. 生成 `tips.json` 索引 + 各文章独立 JSON
+4. 在 `build.ts` 中调用，与菜谱数据构建并行执行
+
+```
+npm run sync 扩展流程:
+    │
+    ├── parseAllRecipes()     ← 已有
+    └── parseAllTips()        ← 新增
+        ├── 遍历 tips/ 目录
+        ├── 对每个 md: 提取标题、摘要、分段
+        ├── 生成 public/data/tips.json
+        └── 生成 public/data/tips/{group}/{id}.json
+```
+
+### 11.5 路由设计
+
+新增 2 个路由，与现有路由体系一致：
+
+| 路径 | 页面 | 数据加载 |
+|------|------|----------|
+| `/tips` | 技巧首页 | 加载 tips.json 索引 |
+| `/tips/:group/:id` | 技巧文章详情 | 懒加载 tips/{group}/{id}.json |
+
+### 11.6 页面设计
+
+#### 11.6.1 技巧首页（TipsPage）
+
+从首页新增入口（如导航区或分类区下方），进入技巧首页：
+
+```
+┌─────────────────────────────────┐
+│  ← 返回          烹饪技巧       │
+│─────────────────────────────────│
+│                                 │
+│  🔧 厨房准备                    │  ← 分组标题 + 图标
+│  ┌─────────────────────────┐   │
+│  │ 📋 厨房准备               │   │  ← 文章卡片，圆角轻阴影
+│  │ 在阅读菜谱之前，假想你     │   │  ← 摘要灰字
+│  │ 已经准备好了下列物品...     │   │
+│  └─────────────────────────┘   │
+│                                 │
+│  🤔 选择吃什么                  │
+│  ┌─────────────────────────┐   │
+│  │ 🎯 如何决策吃什么          │   │
+│  │ 用数学方式解决吃什么...     │   │
+│  └─────────────────────────┘   │
+│                                 │
+│  📖 基础学习                    │
+│  ┌──────────┐ ┌──────────┐    │  ← 双列网格
+│  │ 去腥      │ │ 学习凉拌  │    │
+│  │ 做菜的一  │ │ 凉拌是什  │    │
+│  │ 道工序... │ │ 么...     │    │
+│  └──────────┘ └──────────┘    │
+│  ┌──────────┐ ┌──────────┐    │
+│  │ 炒与煎    │ │ 焯水      │    │
+│  └──────────┘ └──────────┘    │
+│  ...                            │
+│                                 │
+│  🎓 高级技巧                    │
+│  ┌──────────┐ ┌──────────┐    │
+│  │ 油温判断  │ │ 糖色炒制  │    │
+│  │ 技巧      │ │           │    │
+│  └──────────┘ └──────────┘    │
+│  ...                            │
+│                                 │
+└─────────────────────────────────┘
+```
+
+**布局说明**：
+- 独立文章（厨房准备、选择吃什么）使用全宽单列卡片，突出显示
+- 多文章分组（基础学习、高级技巧）使用双列网格卡片，紧凑展示
+- 每张卡片展示标题 + 摘要前 40 字
+- 分组标题左侧带 emoji 图标，使用与首页分类一致的排版风格
+
+#### 11.6.2 技巧文章详情页（TipArticlePage）
+
+```
+┌─────────────────────────────────┐
+│  ← 返回          基础学习       │  ← 所属分组名
+│─────────────────────────────────│
+│                                 │
+│     去 腥                       │  ← 标题，衬线体大字
+│     📖 基础学习                 │  ← 分组标签
+│                                 │
+│  ─── 目录 ───                   │  ← 文章目录（按 ## 生成）
+│  · 什么情况需要去腥              │
+│  · 去腥方法                     │
+│  · 注意事项                     │
+│                                 │
+│  ─────────────                  │
+│                                 │
+│  去腥是做菜过程中的一道工序...    │  ← Markdown 渲染正文
+│                                 │
+│  ## 什么情况需要去腥             │
+│  处理肉类、海鲜时...             │
+│                                 │
+│  ## 去腥方法                     │
+│  1. 料酒去腥...                  │
+│  2. 姜去腥...                    │
+│                                 │
+│  ─── ✿ ───                     │  ← 文末装饰分隔
+│                                 │
+│  ┌─────────────────────────┐   │
+│  │ 📖 上一篇：学习凉拌       │   │  ← 上下篇导航
+│  │ 📖 下一篇：学习炒与煎     │   │
+│  └─────────────────────────┘   │
+│                                 │
+└─────────────────────────────────┘
+```
+
+**交互说明**：
+- 正文使用 `marked` 渲染 Markdown（复用现有 RecipePage 的渲染逻辑）
+- 目录点击锚点定位到对应段落
+- 底部提供同分组内上/下一篇导航
+- 长文支持返回顶部浮动按钮
+
+### 11.7 首页入口设计
+
+在首页分类区域下方、随机推荐上方，新增技巧模块入口：
+
+```
+│  ─── 🍳 烹饪技巧 ───           │  ← 分隔线
+│                                 │
+│  ┌──────────┐ ┌──────────┐    │  ← 横向滚动卡片
+│  │ 🔧       │ │ 📖       │    │
+│  │ 厨房准备  │ │ 基础学习  │    │
+│  │ 4 篇技巧  │ │ 11 篇技巧 │    │
+│  └──────────┘ └──────────┘    │
+│              ··                 │  ← 滚动指示器
+│       查看全部 →                │  ← 跳转 /tips
+```
+
+### 11.8 Hooks 设计
+
+```typescript
+// hooks/useTipsIndex.ts — 加载技巧索引
+function useTipsIndex(): {
+  groups: TipGroup[];
+  loading: boolean;
+  error: string | null;
+}
+
+// hooks/useTipArticle.ts — 加载单篇文章
+function useTipArticle(group: string, id: string): {
+  article: TipArticle | null;
+  loading: boolean;
+  error: string | null;
+}
+```
+
+### 11.9 新增文件清单
+
+| 文件路径 | 类型 | 说明 |
+|----------|------|------|
+| `scripts/parseTips.ts` | 构建脚本 | 解析 tips 目录，生成 JSON |
+| `src/types/tip.ts` | 类型定义 | TipGroup / TipArticleMeta / TipArticle |
+| `src/hooks/useTipsIndex.ts` | Hook | 加载技巧索引 |
+| `src/hooks/useTipArticle.ts` | Hook | 加载单篇文章 |
+| `src/pages/TipsPage.tsx` | 页面 | 技巧首页 |
+| `src/pages/TipArticlePage.tsx` | 页面 | 技巧文章详情 |
+| `src/components/TipCard.tsx` | 组件 | 技巧文章卡片 |
+
+### 11.10 性能考量
+
+- **tips.json 索引**：17 篇文章的元信息，预估 ~3KB（gzip < 1KB），可在首页一并预加载或 /tips 页首屏加载
+- **单篇文章 JSON**：最大 171 行（高级专业术语），预估 ~8KB，按需懒加载
+- **路由懒加载**：TipsPage 和 TipArticlePage 均使用 `React.lazy` 分包
+- **不影响首屏**：技巧模块的数据和页面组件完全独立，不增加首屏加载体积

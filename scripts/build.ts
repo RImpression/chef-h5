@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { syncRepository } from './sync';
 import { parseAllRecipes } from './parse';
+import { parseAllTips } from './parseTips';
 import { CATEGORY_ICON_MAP } from './utils';
 
 const OUTPUT_DIR = path.resolve(process.cwd(), 'public/data');
@@ -106,7 +107,26 @@ async function main() {
   }
   console.log(`📝 菜谱详情文件: ${recipes.length} 个`);
 
-  // 9. 统计信息
+  // 9. 构建技巧数据
+  ensureDir(path.join(OUTPUT_DIR, 'tips'));
+  const { groups: tipGroups, articles: tipArticles } = parseAllTips(repoDir);
+
+  if (tipGroups.length > 0) {
+    // tips.json 索引
+    writeJson(path.join(OUTPUT_DIR, 'tips.json'), tipGroups);
+    console.log(`📚 tips.json: ${tipGroups.length} 个分组，${tipArticles.length} 篇文章`);
+
+    // 各文章独立 JSON
+    for (const article of tipArticles) {
+      const articleDir = path.join(OUTPUT_DIR, 'tips', article.group);
+      ensureDir(articleDir);
+      const articleFileName = article.id.split('/').pop()!;
+      writeJson(path.join(articleDir, `${articleFileName}.json`), article);
+    }
+    console.log(`📚 技巧文章文件: ${tipArticles.length} 个`);
+  }
+
+  // 10. 统计信息
   const indexSize = fs.statSync(path.join(OUTPUT_DIR, 'index.json')).size;
   console.log(`\n✨ 构建完成！`);
   console.log(`   菜谱总数: ${recipes.length}`);

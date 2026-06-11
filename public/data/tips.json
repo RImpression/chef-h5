@@ -1,0 +1,136 @@
+[
+  {
+    "id": "preparation",
+    "name": "厨房准备",
+    "icon": "/icons/tips/preparation.png",
+    "description": "下厨前的基础准备工作",
+    "articles": [
+      {
+        "id": "preparation/kitchen-preparation",
+        "title": "厨房准备",
+        "group": "preparation",
+        "summary": "在阅读和参考菜谱之前，假想你已经在厨房中准备好了下列物品。这些物品不会在原材料和工具部分提及。"
+      }
+    ]
+  },
+  {
+    "id": "decision",
+    "name": "选择吃什么",
+    "icon": "/icons/tips/decision.png",
+    "description": "用科学方法决定今天的菜单",
+    "articles": [
+      {
+        "id": "decision/what-to-eat",
+        "title": "如何决策吃什么",
+        "group": "decision",
+        "summary": "如何决策吃什么也是我做菜之前一大难题。所以只能用数学描述一下了。"
+      }
+    ]
+  },
+  {
+    "id": "learn",
+    "name": "基础学习",
+    "icon": "/icons/tips/learn.png",
+    "description": "掌握常见烹饪技法和厨具使用",
+    "articles": [
+      {
+        "id": "learn/remove-odor",
+        "title": "去腥",
+        "group": "learn",
+        "summary": "去腥是做菜过程中的一道工序。"
+      },
+      {
+        "id": "learn/cold-mix",
+        "title": "凉拌",
+        "group": "learn",
+        "summary": "凉拌是一种将主食材与辅料通过搅拌混合以成菜的方式"
+      },
+      {
+        "id": "learn/stir-fry-and-pan-fry",
+        "title": "炒/煎",
+        "group": "learn",
+        "summary": "可使用普通金属制（铁/不锈钢/铝）炒/煎锅或不粘锅。"
+      },
+      {
+        "id": "learn/blanching",
+        "title": "焯水",
+        "group": "learn",
+        "summary": "焯水是做饭的一道工序，读作 chāo shuǐ。"
+      },
+      {
+        "id": "learn/boiling",
+        "title": "煮",
+        "group": "learn",
+        "summary": "倒水入锅——开火，将锅放于火上加热——水开（水翻滚，有大量气泡冒出）后放入食材"
+      },
+      {
+        "id": "learn/marinating",
+        "title": "腌（肉）",
+        "group": "learn",
+        "summary": "此处所描述的腌渍是食材烹饪前处理的步骤，并非制作咸肉或腌制香肠等成品"
+      },
+      {
+        "id": "learn/steaming",
+        "title": "蒸",
+        "group": "learn",
+        "summary": "蒸锅为多层结构，最底部用于盛水，利用水开后产生的水蒸气的热量，加热上层食物。"
+      },
+      {
+        "id": "learn/microwave",
+        "title": "使用微波炉",
+        "group": "learn",
+        "summary": "微波炉是 1945 年由 [珀西·勒巴朗·斯宾塞](https://en.wikipedia.org/wiki/Perc"
+      },
+      {
+        "id": "learn/air-fryer",
+        "title": "使用空气炸锅",
+        "group": "learn",
+        "summary": "空气炸锅为一种电子炊具，用空气替代原本热油加热，让食物变熟，令食材无需遇油也能达到近似油炸的效果。"
+      },
+      {
+        "id": "learn/food-safety",
+        "title": "食品安全",
+        "group": "learn",
+        "summary": "以下食物有造成中毒的风险："
+      },
+      {
+        "id": "learn/pressure-cooker",
+        "title": "蒸（米）/炖（使用电饭煲/高压锅/电压力锅）",
+        "group": "learn",
+        "summary": "压力锅其实是一般的锅加上可锁紧的半密封盖，盖上有阀门，可用于控制锅内的压力。"
+      }
+    ]
+  },
+  {
+    "id": "advanced",
+    "name": "高级技巧",
+    "icon": "/icons/tips/advanced.png",
+    "description": "进阶烹饪知识与专业术语",
+    "articles": [
+      {
+        "id": "advanced/oil-temperature",
+        "title": "油温判断技巧及常见温度和单位换算表",
+        "group": "advanced",
+        "summary": "根据上述描述制表。误差为非专业数据。"
+      },
+      {
+        "id": "advanced/caramel-coloring",
+        "title": "糖色的炒制",
+        "group": "advanced",
+        "summary": "原理： 糖遇高温融化，且在加热不同时间后呈不同性状"
+      },
+      {
+        "id": "advanced/seasoning-tips",
+        "title": "辅料技巧",
+        "group": "advanced",
+        "summary": ""
+      },
+      {
+        "id": "advanced/culinary-terms",
+        "title": "做菜专业术语",
+        "group": "advanced",
+        "summary": "做菜和学习编程一样，首先得认识专业术语就好比学习基础语法，通过术语之间的组合方能完成一道菜。"
+      }
+    ]
+  }
+]

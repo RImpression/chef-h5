@@ -1,12 +1,14 @@
 import { useState, useMemo } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useNavigate, Link } from 'react-router-dom';
 import { CategoryTag } from '../components/CategoryTag';
 import { RecipeList } from '../components/RecipeList';
 import { Loading } from '../components/Loading';
 import { useRecipeIndex } from '../hooks/useRecipeIndex';
+import { useTipsIndex } from '../hooks/useTipsIndex';
 
 export function HomePage() {
   const { recipes, categories, loading, error } = useRecipeIndex();
+  const { groups: tipGroups } = useTipsIndex();
   const navigate = useNavigate();
 
   const [randomSeed, setRandomSeed] = useState(0);
@@ -87,6 +89,40 @@ export function HomePage() {
               <CategoryTag key={category.id} category={category} />
             ))}
           </div>
+
+          {/* 烹饪技巧入口 */}
+          {tipGroups.length > 0 && (
+            <div className="mb-8">
+              <div className="flex items-center justify-between mb-3">
+                <h2 className="font-title text-[18px] font-bold text-[var(--color-text-primary)]">
+                  烹饪技巧
+                </h2>
+                <Link
+                  to="/tips"
+                  className="text-[13px] text-[var(--color-accent)] font-medium no-underline"
+                >
+                  查看全部
+                </Link>
+              </div>
+              <div className="flex gap-3 overflow-x-auto pb-2 -mx-1 px-1 scrollbar-hide">
+                {tipGroups.map((group) => (
+                  <Link
+                    key={group.id}
+                    to="/tips"
+                    className="flex-shrink-0 w-28 rounded-xl bg-white p-3 shadow-[0_1px_4px_rgba(0,0,0,0.04)] no-underline"
+                  >
+                    <img src={group.icon} alt={group.name} className="w-8 h-8 object-contain" />
+                    <p className="text-sm font-medium text-[var(--color-text-primary)] mt-1.5 line-clamp-1">
+                      {group.name}
+                    </p>
+                    <p className="text-[10px] text-[var(--color-text-secondary)] mt-0.5">
+                      {group.articles.length} 篇技巧
+                    </p>
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
           {/* 随机一道菜按钮 */}
           <div className="mb-8 px-4">

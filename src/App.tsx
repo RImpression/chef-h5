@@ -12,6 +12,12 @@ const CategoryPage = lazy(() =>
 const RecipePage = lazy(() =>
   import('./pages/RecipePage').then((m) => ({ default: m.RecipePage }))
 );
+const TipsPage = lazy(() =>
+  import('./pages/TipsPage').then((m) => ({ default: m.TipsPage }))
+);
+const TipArticlePage = lazy(() =>
+  import('./pages/TipArticlePage').then((m) => ({ default: m.TipArticlePage }))
+);
 
 export default function App() {
   return (
@@ -22,6 +28,8 @@ export default function App() {
           <Route path="/search" element={<SearchResultPage />} />
           <Route path="/category/:id" element={<CategoryPage />} />
           <Route path="/recipe/:id" element={<RecipePage />} />
+          <Route path="/tips" element={<TipsPage />} />
+          <Route path="/tips/:group/:id" element={<TipArticlePage />} />
         </Routes>
       </Suspense>
     </BrowserRouter>

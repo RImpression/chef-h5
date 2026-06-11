@@ -1,27 +1,9 @@
 [
   {
-    "id": "staple",
-    "name": "主食",
-    "icon": "🍚",
-    "count": 58
-  },
-  {
-    "id": "meat_dish",
-    "name": "荤菜",
-    "icon": "🥩",
-    "count": 108
-  },
-  {
-    "id": "vegetable_dish",
-    "name": "素菜",
-    "icon": "🥬",
-    "count": 61
-  },
-  {
-    "id": "soup",
-    "name": "汤品",
-    "icon": "🍲",
-    "count": 23
+    "id": "aquatic",
+    "name": "水产",
+    "icon": "🐟",
+    "count": 28
   },
   {
     "id": "breakfast",
@@ -30,10 +12,10 @@
     "count": 25
   },
   {
-    "id": "drink",
-    "name": "饮品",
-    "icon": "🥤",
-    "count": 23
+    "id": "condiment",
+    "name": "酱料",
+    "icon": "🧂",
+    "count": 9
   },
   {
     "id": "dessert",
@@ -42,10 +24,16 @@
     "count": 19
   },
   {
-    "id": "aquatic",
-    "name": "水产",
-    "icon": "🐟",
-    "count": 28
+    "id": "drink",
+    "name": "饮品",
+    "icon": "🥤",
+    "count": 23
+  },
+  {
+    "id": "meat_dish",
+    "name": "荤菜",
+    "icon": "🥩",
+    "count": 108
   },
   {
     "id": "semi-finished",
@@ -54,9 +42,21 @@
     "count": 10
   },
   {
-    "id": "condiment",
-    "name": "酱料",
-    "icon": "🧂",
-    "count": 9
+    "id": "soup",
+    "name": "汤品",
+    "icon": "🍲",
+    "count": 23
+  },
+  {
+    "id": "staple",
+    "name": "主食",
+    "icon": "🍚",
+    "count": 58
+  },
+  {
+    "id": "vegetable_dish",
+    "name": "素菜",
+    "icon": "🥬",
+    "count": 61
   }
 ]

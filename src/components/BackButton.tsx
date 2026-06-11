@@ -11,7 +11,7 @@ export function BackButton({ to }: BackButtonProps) {
     if (to) {
       navigate(to);
     } else {
-      navigate('/');
+      navigate(-1);
     }
   };
 
