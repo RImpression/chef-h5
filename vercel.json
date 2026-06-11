@@ -2,7 +2,6 @@
   "buildCommand": "npm run build",
   "outputDirectory": "dist",
   "framework": "vite",
-  "nodeVersion": "22.x",
   "rewrites": [
     { "source": "/((?!data|icons|logo|default-dish|logo-text).*)", "destination": "/index.html" }
   ]
