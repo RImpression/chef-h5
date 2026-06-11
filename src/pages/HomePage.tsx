@@ -53,9 +53,9 @@ export function HomePage() {
         <div className="flex justify-center">
           <img src="/logo.png" alt="食光" className="logo object-contain" />
         </div>
-        <h1 className="font-title title-mt text-[32px] font-bold text-[var(--color-text-primary)] tracking-[0.4em] mb-2">
-          食 光
-        </h1>
+        <div className="flex justify-center title-mt mb-4">
+          <img src="/logo-text.png" alt="食光" className="h-10 object-contain" />
+        </div>
         <p className="text-[13px] text-[var(--color-text-secondary)] font-light tracking-wider">
           — 用心料理，感受食光 —
         </p>

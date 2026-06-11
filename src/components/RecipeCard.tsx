@@ -11,10 +11,11 @@ interface RecipeCardProps {
   image?: string;
   calories?: number;
   difficulty?: number;
+  categoryName?: string;
 }
 
 
-export function RecipeCard({ id, title, description, image, calories, difficulty }: RecipeCardProps) {
+export function RecipeCard({ id, title, description, image, calories, difficulty, categoryName }: RecipeCardProps) {
   const difficultyValue = difficulty ?? 2;
   const difficultyLabel = getDifficultyLabel(difficultyValue);
   const displayCalories = calories ?? 250;
@@ -28,7 +29,12 @@ export function RecipeCard({ id, title, description, image, calories, difficulty
       className="block bg-[var(--color-card)] rounded-2xl card-shadow border border-[var(--color-divider)] hover:shadow-md active:scale-[0.98] transition-all duration-200 no-underline overflow-hidden"
     >
       {/* 第一行：菜品图片 */}
-      <div className="w-full aspect-[4/3] overflow-hidden bg-[var(--color-search-bg)]">
+      <div className="relative w-full aspect-[4/3] overflow-hidden bg-[var(--color-search-bg)]">
+        {categoryName && (
+          <span className="absolute top-2 left-2 z-[1] px-2 py-0.5 rounded-full text-[10px] font-medium bg-black/40 text-white backdrop-blur-sm leading-none flex items-center h-5">
+            {categoryName}
+          </span>
+        )}
         <img
           src={imageUrl}
           alt={title}

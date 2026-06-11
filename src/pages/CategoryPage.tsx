@@ -31,7 +31,7 @@ export function CategoryPage() {
   return (
     <div className="min-h-screen px-6 pb-12">
       {/* 顶部导航 */}
-      <div className="flex items-center justify-between pt-4 pb-6">
+      <div className="sticky top-0 z-10 bg-[var(--color-bg)] -mx-6 px-6 flex items-center justify-between pt-4 pb-6">
         <BackButton />
         <h2 className="font-title text-lg font-semibold text-[var(--color-text-primary)]">
           {categoryName}
@@ -42,7 +42,7 @@ export function CategoryPage() {
         <div className="w-12" />
       </div>
 
-      <RecipeList recipes={recipes} />
+      <RecipeList recipes={recipes} categoryName={categoryName} />
     </div>
   );
 }

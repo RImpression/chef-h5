@@ -25,7 +25,7 @@ export function SearchResultPage() {
   return (
     <div className="min-h-screen px-6 pb-12">
       {/* 顶部导航 */}
-      <div className="flex items-center gap-3 pt-4 pb-4">
+      <div className="sticky top-0 z-10 bg-[var(--color-bg)] -mx-6 px-6 flex items-center gap-3 pt-4 pb-4">
         <BackButton />
         <div className="flex-1">
           <SearchBar value={queryParam} onSearch={handleSearch} autoFocus />

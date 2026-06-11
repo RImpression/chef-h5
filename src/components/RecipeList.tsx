@@ -3,9 +3,10 @@ import type { RecipeIndexItem, CategoryRecipeItem } from '../types/recipe';
 
 interface RecipeListProps {
   recipes: (RecipeIndexItem | CategoryRecipeItem)[];
+  categoryName?: string;
 }
 
-export function RecipeList({ recipes }: RecipeListProps) {
+export function RecipeList({ recipes, categoryName }: RecipeListProps) {
   if (recipes.length === 0) {
     return (
       <div className="text-center py-12 text-[var(--color-text-secondary)] text-sm">
@@ -24,6 +25,7 @@ export function RecipeList({ recipes }: RecipeListProps) {
           image={recipe.image}
           calories={recipe.calories}
           difficulty={recipe.difficulty}
+          categoryName={categoryName || ('categoryName' in recipe ? recipe.categoryName : undefined)}
         />
       ))}
     </div>
