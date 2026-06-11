@@ -140,6 +140,18 @@ function parseRecipeFile(filePath: string, repoDir: string): ParsedRecipe | null
     ...title.split(/[,，、\s]+/).filter(Boolean),
   ];
 
+  // 将 rawMarkdown 中的相对图片路径转为 GitHub media URL
+  const recipeDir = path.dirname(filePath);
+  const processedMarkdown = markdown.replace(
+    /!\[([^\]]*)\]\(\.\/([^)]+)\)/g,
+    (_match, alt, relativeSrc) => {
+      const absPath = path.resolve(recipeDir, relativeSrc);
+      const relativeToRepo = path.relative(repoDir, absPath).replace(/\\/g, '/');
+      const githubUrl = `https://media.githubusercontent.com/media/Anduin2017/HowToCook/master/${encodeURI(relativeToRepo)}`;
+      return `![${alt}](${githubUrl})`;
+    },
+  );
+
   return {
     id: recipeId,
     title,
@@ -153,7 +165,7 @@ function parseRecipeFile(filePath: string, repoDir: string): ParsedRecipe | null
     steps,
     tips,
     tags: [...new Set(tags)],
-    rawMarkdown: markdown,
+    rawMarkdown: processedMarkdown,
   };
 }
 

@@ -1,5 +1,6 @@
-import { useState } from 'react';
+import { useEffect, useRef } from 'react';
 import { useParams } from 'react-router-dom';
+import { marked } from 'marked';
 import { BackButton } from '../components/BackButton';
 import { Loading } from '../components/Loading';
 import { useRecipe } from '../hooks/useRecipe';
@@ -12,19 +13,17 @@ export function RecipePage() {
   const { id } = useParams<{ id: string }>();
   const decodedId = id ? decodeURIComponent(id) : undefined;
   const { recipe, loading, error } = useRecipe(decodedId);
-  const [checkedIngredients, setCheckedIngredients] = useState<Set<number>>(new Set());
+  const markdownRef = useRef<HTMLDivElement>(null);
 
-  const toggleIngredient = (index: number) => {
-    setCheckedIngredients((prev) => {
-      const next = new Set(prev);
-      if (next.has(index)) {
-        next.delete(index);
-      } else {
-        next.add(index);
-      }
-      return next;
-    });
-  };
+  // Markdown 渲染：去掉一级标题和首张图片（已在顶部展示）
+  useEffect(() => {
+    if (!recipe || !markdownRef.current) return;
+    let content = recipe.rawMarkdown
+      .replace(/^#\s+.+$/m, '')
+      .trim();
+    content = content.replace(/!\[[^\]]*\]\([^)]+\)/, '');
+    markdownRef.current.innerHTML = marked.parse(content) as string;
+  }, [recipe]);
 
   if (loading) return <Loading />;
 
@@ -71,11 +70,11 @@ export function RecipePage() {
 
         {/* 描述 + 卡路里/难度/分类信息 */}
         <div className="mb-8">
-          {recipe.description && (
+          {/* {recipe.description && (
             <p className="text-sm text-[var(--color-text-secondary)] leading-relaxed mb-3">
               {recipe.description}
             </p>
-          )}
+          )} */}
           <div className="flex items-center gap-3 text-[13px]">
             {/* 卡路里 */}
             <span className="flex items-center gap-1 font-medium" style={{ color: getCaloriesColor(recipe.calories ?? 250) }}>
@@ -106,90 +105,12 @@ export function RecipePage() {
           </div>
         </div>
 
-      {/* 食材清单 */}
-          {recipe.ingredients.length > 0 && (
-            <div className="mb-8">
-              <div className="divider-ornament mb-5">
-                <span>食材清单</span>
-              </div>
-              <div className="bg-[var(--color-card)] rounded-xl p-5 card-shadow">
-                {recipe.ingredients.map((ingredient, index) => {
-                  const isChecked = checkedIngredients.has(index);
-                  return (
-                    <button
-                      key={index}
-                      onClick={() => toggleIngredient(index)}
-                      className={`flex items-center justify-between gap-1 w-full py-2.5 border-b border-[var(--color-divider)] last:border-b-0 text-left cursor-pointer bg-transparent transition-colors duration-150 ${
-                        isChecked ? 'ingredient-checked' : ''
-                      }`}
-                    >
-                      <div className="flex items-center gap-3">
-                        <div
-                          className={`w-4 h-4 rounded-full border-2 flex flex-shrink-0 items-center justify-center transition-colors duration-150 ${
-                            isChecked
-                              ? 'border-[var(--color-accent)] bg-[var(--color-accent)]'
-                              : 'border-[var(--color-divider)]'
-                          }`}
-                        >
-                          {isChecked && (
-                            <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round">
-                              <path d="M20 6L9 17l-5-5" />
-                            </svg>
-                          )}
-                        </div>
-                        <span className="text-[15px]">{ingredient.name}</span>
-                      </div>
-                      <span className="text-sm text-[var(--color-text-secondary)]" style={{ minWidth: '28px' }}>
-                        {ingredient.amount}
-                      </span>
-                    </button>
-                  );
-                })}
-              </div>
-            </div>
-          )}
+      {/* Markdown 渲染 */}
+      <div
+        ref={markdownRef}
+        className="recipe-markdown prose prose-sm max-w-none text-[var(--color-text-primary)]"
+      />
 
-          {/* 烹饪步骤 */}
-          {recipe.steps.length > 0 && (
-            <div className="mb-8">
-              <div className="divider-ornament mb-5">
-                <span>烹饪步骤</span>
-              </div>
-              <div className="flex flex-col gap-5">
-                {recipe.steps.map((step) => (
-                  <div key={step.order} className="flex gap-4">
-                    <div className="flex-shrink-0 w-8 h-8 rounded-full bg-[var(--color-accent)] text-white flex items-center justify-center text-sm font-medium font-title">
-                      {step.order}
-                    </div>
-                    <div className="flex-1 pt-1">
-                      <p className="text-[15px] leading-relaxed text-[var(--color-text-primary)]">
-                        {step.content}
-                      </p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* 小贴士 */}
-          {recipe.tips.length > 0 && (
-            <div>
-              <div className="divider-ornament mb-5">
-                <span>小贴士</span>
-              </div>
-              <div className="bg-[var(--color-search-bg)] rounded-xl p-5">
-                {recipe.tips.map((tip, index) => (
-                  <p
-                    key={index}
-                    className="text-sm text-[var(--color-text-secondary)] leading-relaxed mb-2 last:mb-0"
-                  >
-                    · {tip}
-                  </p>
-                ))}
-              </div>
-            </div>
-          )}
         </div>
       </div>
   );
