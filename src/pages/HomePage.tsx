@@ -6,17 +6,25 @@ import { Loading } from '../components/Loading';
 import { useRecipeIndex } from '../hooks/useRecipeIndex';
 import { useTipsIndex } from '../hooks/useTipsIndex';
 
+/** 模块级缓存：保持返回首页时推荐内容不变 */
+let cachedRandomSeed: number | null = null;
+
 export function HomePage() {
   const { recipes, categories, loading, error } = useRecipeIndex();
   const { groups: tipGroups } = useTipsIndex();
   const navigate = useNavigate();
 
-  const [randomSeed, setRandomSeed] = useState(0);
+  const [randomSeed, setRandomSeed] = useState(() => {
+    if (cachedRandomSeed !== null) return cachedRandomSeed;
+    const seed = Date.now();
+    cachedRandomSeed = seed;
+    return seed;
+  });
 
   const randomRecipes = useMemo(() => {
     if (recipes.length === 0) return [];
     const shuffled = [...recipes];
-    let seedValue = randomSeed + Date.now();
+    let seedValue = randomSeed;
     for (let i = shuffled.length - 1; i > 0; i--) {
       seedValue = (seedValue * 9301 + 49297) % 233280;
       const j = Math.floor((seedValue / 233280) * (i + 1));
@@ -27,7 +35,11 @@ export function HomePage() {
 
 
   const handleRefreshRandom = () => {
-    setRandomSeed((prev) => prev + 1);
+    setRandomSeed((prev) => {
+      const newSeed = prev + 1;
+      cachedRandomSeed = newSeed;
+      return newSeed;
+    });
   };
 
   const handleRandomRecipe = () => {
@@ -105,21 +117,26 @@ export function HomePage() {
                 </Link>
               </div>
               <div className="flex gap-3 overflow-x-auto pb-2 -mx-1 px-1 scrollbar-hide">
-                {tipGroups.map((group) => (
-                  <Link
-                    key={group.id}
-                    to="/tips"
-                    className="flex-shrink-0 w-28 rounded-xl bg-white p-3 shadow-[0_1px_4px_rgba(0,0,0,0.04)] no-underline"
-                  >
-                    <img src={group.icon} alt={group.name} className="w-8 h-8 object-contain" />
-                    <p className="text-sm font-medium text-[var(--color-text-primary)] mt-1.5 line-clamp-1">
-                      {group.name}
-                    </p>
-                    <p className="text-[10px] text-[var(--color-text-secondary)] mt-0.5">
-                      {group.articles.length} 篇技巧
-                    </p>
-                  </Link>
-                ))}
+                {tipGroups.map((group) => {
+                  const targetPath = group.articles.length === 1
+                    ? `/tips/${group.articles[0].id}`
+                    : '/tips';
+                  return (
+                    <Link
+                      key={group.id}
+                      to={targetPath}
+                      className="flex-shrink-0 w-28 rounded-xl bg-white p-3 shadow-[0_1px_4px_rgba(0,0,0,0.04)] no-underline"
+                    >
+                      <img src={group.icon} alt={group.name} className="w-8 h-8 object-contain" />
+                      <p className="text-sm font-medium text-[var(--color-text-primary)] mt-1.5 line-clamp-1">
+                        {group.name}
+                      </p>
+                      <p className="text-[10px] text-[var(--color-text-secondary)] mt-0.5">
+                        {group.articles.length} 篇技巧
+                      </p>
+                    </Link>
+                  );
+                })}
               </div>
             </div>
           )}

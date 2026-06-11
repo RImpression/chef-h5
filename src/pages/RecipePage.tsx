@@ -119,13 +119,13 @@ export function RecipePage() {
                     <button
                       key={index}
                       onClick={() => toggleIngredient(index)}
-                      className={`flex items-center justify-between w-full py-2.5 border-b border-[var(--color-divider)] last:border-b-0 text-left cursor-pointer bg-transparent transition-colors duration-150 ${
+                      className={`flex items-center justify-between gap-1 w-full py-2.5 border-b border-[var(--color-divider)] last:border-b-0 text-left cursor-pointer bg-transparent transition-colors duration-150 ${
                         isChecked ? 'ingredient-checked' : ''
                       }`}
                     >
                       <div className="flex items-center gap-3">
                         <div
-                          className={`w-4 h-4 rounded-full border-2 flex items-center justify-center transition-colors duration-150 ${
+                          className={`w-4 h-4 rounded-full border-2 flex flex-shrink-0 items-center justify-center transition-colors duration-150 ${
                             isChecked
                               ? 'border-[var(--color-accent)] bg-[var(--color-accent)]'
                               : 'border-[var(--color-divider)]'
@@ -139,7 +139,7 @@ export function RecipePage() {
                         </div>
                         <span className="text-[15px]">{ingredient.name}</span>
                       </div>
-                      <span className="text-sm text-[var(--color-text-secondary)]">
+                      <span className="text-sm text-[var(--color-text-secondary)]" style={{ minWidth: '28px' }}>
                         {ingredient.amount}
                       </span>
                     </button>
