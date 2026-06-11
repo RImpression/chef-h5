@@ -20,10 +20,11 @@ Agent 在编写代码时必须遵循这些封装规范，不得绕过已有封�
 - 已有组件清单：
   - `RecipeCard` — 菜品卡片（含图片、标题、描述、卡路里、难度）
   - `RecipeList` — 菜品列表容器
-  - `CategoryTag` — 分类标签
-  - `SearchBar` — 搜索输入框
-  - `BackButton` — 返回按钮
+  - `CategoryTag` — 分类标签（使用 PNG 手绘风图标）
+  - `SearchBar` — 搜索输入框（含防抖）
+  - `BackButton` — 返回按钮（默认 `navigate(-1)`，可指定 `to` 跳转）
   - `Loading` — 加载态骨架屏
+  - `TipCard` — 技巧文章卡片
 
 ## 路由
 
@@ -37,6 +38,8 @@ Agent 在编写代码时必须遵循这些封装规范，不得绕过已有封�
   - `/search` → `SearchResultPage`（lazy）
   - `/category/:id` → `CategoryPage`（lazy）
   - `/recipe/:id` → `RecipePage`（lazy）
+  - `/tips` → `TipsPage`（lazy）
+  - `/tips/:group/:id` → `TipArticlePage`（lazy）
 
 ## 样式
 
@@ -66,16 +69,28 @@ Agent 在编写代码时必须遵循这些封装规范，不得绕过已有封�
   - `color.ts` — 卡路里/难度颜色分级（`getCaloriesColor`、`getDifficultyColor`）
 - 工具函数必须是纯函数，无副作用
 - 新增工具前先检查 `src/utils/` 是否已有类似实现
-- 项目已引入的外部工具库：`fuse.js`（模糊搜索）、`marked`（Markdown 解析）
+- 项目已引入的外部工具库：`fuse.js`（模糊搜索）、`marked`（Markdown 渲染）
+
+## Markdown 渲染
+
+- **使用场景**: 菜品详情页（RecipePage）和技巧文章详情页（TipArticlePage）
+- **渲染方式**: 使用 `marked.parse()` 将 `rawMarkdown` 转为 HTML，通过 `useEffect` + `ref.innerHTML` 注入
+- **样式容器**: 渲染内容外层添加 `.recipe-markdown` 类名，样式定义在 `src/styles/index.css`
+- **图片处理**: 构建阶段已将 Markdown 中的相对路径 `./xxx.jpg` 转为 GitHub Media URL
+- **内容预处理**: 渲染前去掉一级标题（`# xxx`）和首张图片（已在顶部 hero 区域展示）
 
 ## 类型系统
 
 - 类型定义统一放在 `src/types/` 目录
 - 核心数据模型定义在 `src/types/recipe.ts`：
-  - `Recipe` — 完整菜谱（含 ingredients、steps、tips）
+  - `Recipe` — 完整菜谱（含 ingredients、steps、tips、rawMarkdown）
   - `RecipeIndexItem` — 索引列表项（轻量）
   - `CategoryMeta` — 分类元数据
   - `CategoryRecipeItem` — 分类下的菜谱项
   - `Ingredient`、`Step` — 子结构
+- 技巧数据模型定义在 `src/types/tip.ts`：
+  - `TipArticle` — 单篇技巧文章（含 rawMarkdown）
+  - `TipGroup` — 技巧分组（含 articles 列表）
+  - `TipsIndex` — 技巧索引
 - Hook 内部返回类型用 `interface` 定义在 hook 文件内
 - 使用 `import type` 导入纯类型

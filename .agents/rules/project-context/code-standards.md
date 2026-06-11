@@ -42,6 +42,22 @@
 - 使用 `react-router-dom` v7 的 `BrowserRouter` + `Routes`
 - 非首页的页面组件使用 `lazy()` + `Suspense` 按需加载
 - 路由参数中的 id 需要 `encodeURIComponent` / `decodeURIComponent` 处理
+- `BackButton` 默认使用 `navigate(-1)` 历史回退；搜索页等需指定 `to="/"` 强制返回首页
+
+### Markdown 渲染
+
+- 菜品详情和技巧文章统一使用 `marked` 渲染 `rawMarkdown` 字段
+- 渲染方式：`useEffect` + `ref.innerHTML = marked.parse(content)`
+- 渲染前预处理：去掉一级标题（`# xxx`）和首张图片（顶部 hero 区域已展示）
+- 外层容器使用 `.recipe-markdown` 类名，样式定义在 `src/styles/index.css`
+- 图片路径在构建阶段已转为 GitHub Media URL，渲染时无需额外处理
+
+### 数据构建
+
+- 构建脚本位于 `scripts/` 目录，使用 `npx tsx` 执行
+- `rawMarkdown` 中的相对图片路径必须在构建时转为 GitHub Media URL
+- 新增数据源文件解析时，需在 `scripts/build.ts` 中注册入口
+- 输出目录为 `public/data/`，按模块分子目录（recipes/、tips/）
 
 ## 文件组织
 
@@ -49,10 +65,11 @@
 src/
 ├── pages/          # 页面级组件（与路由一一对应）
 ├── components/     # 可复用 UI 组件
+│   └── icons/      # SVG 图标组件
 ├── hooks/          # 自定义数据 Hooks
 ├── types/          # TypeScript 类型定义
 ├── utils/          # 纯工具函数（无副作用）
-├── styles/         # 全局样式和主题变量
+├── styles/         # 全局样式、主题变量、Markdown 渲染样式
 ├── assets/         # 静态资源（图片等）
 ├── App.tsx         # 路由配置入口
 └── main.tsx        # 应用挂载入口

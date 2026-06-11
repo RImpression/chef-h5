@@ -24,8 +24,8 @@
 
 - **别名**: 菜品页、食谱页、recipe 页
 - **主要目录**: `src/pages/RecipePage.tsx`
-- **说明**: 展示单个菜谱的完整信息：图片、描述、卡路里/难度/分类、食材清单（可勾选）、烹饪步骤、小贴士
-- **依赖**: `useRecipe`
+- **说明**: 使用 marked 渲染菜谱的完整 rawMarkdown 内容，顶部展示图片、描述、卡路里/难度/分类信息
+- **依赖**: `useRecipe`, `marked`
 
 ### 分类页（CategoryPage）
 
@@ -85,3 +85,69 @@
 - **别名**: build 脚本、sync 命令
 - **主要目录**: `scripts/build.ts`
 - **说明**: 通过 `npm run sync` 执行，将菜谱源数据构建为 `/public/data/` 下的静态 JSON 文件
+
+### 烹饪技巧首页（TipsPage）
+
+- **别名**: 技巧页、tips 列表
+- **主要目录**: `src/pages/TipsPage.tsx`
+- **说明**: 展示所有技巧分组和组内文章列表，支持展开/收起分组
+- **依赖**: `useTipsIndex`, `TipCard`
+
+### 技巧文章详情页（TipArticlePage）
+
+- **别名**: 技巧详情、tip 文章页
+- **主要目录**: `src/pages/TipArticlePage.tsx`
+- **说明**: 使用 marked 渲染单篇技巧文章的 rawMarkdown 内容，支持目录锚点跳转
+- **依赖**: `useTipArticle`, `marked`
+
+### 技巧卡片组件（TipCard）
+
+- **别名**: tip 卡片
+- **主要目录**: `src/components/TipCard.tsx`
+- **说明**: 单篇技巧文章的展示卡片，含标题、描述，点击跳转详情
+- **被依赖**: `TipsPage`
+
+### 技巧数据 Hooks
+
+- **别名**: tips hooks
+- **主要目录**: `src/hooks/useTipsIndex.ts`, `src/hooks/useTipArticle.ts`
+- **说明**: `useTipsIndex` 加载技巧分组索引（带模块级缓存），`useTipArticle` 加载单篇技巧文章
+- **依赖**: `fetcher.ts`, `types/tip.ts`
+- **被依赖**: `TipsPage`, `TipArticlePage`, `HomePage`
+
+### 技巧类型定义（tip types）
+
+- **别名**: tip 数据模型
+- **主要目录**: `src/types/tip.ts`
+- **说明**: 定义技巧相关数据结构：`TipArticle`、`TipGroup`、`TipsIndex` 等
+
+### 分类图标（CategoryIcons）
+
+- **别名**: 分类 icon、类目图标
+- **主要目录**: `src/components/icons/CategoryIcons.tsx`, `public/icons/categories/`
+- **说明**: CategoryIcons.tsx 包含 SVG 图标组件和 BrandLogo；分类标签实际使用 `public/icons/categories/` 下的 PNG 手绘风图标
+
+### 构建脚本模块
+
+- **别名**: scripts、数据构建
+- **主要目录**: `scripts/`
+- **说明**: 
+  - `build.ts` — 构建入口，编排同步+解析+输出
+  - `sync.ts` — 从 GitHub clone/pull HowToCook 仓库到 `.cache/`
+  - `parse.ts` — 菜谱 Markdown 解析为 JSON，处理图片路径转 GitHub URL
+  - `parseTips.ts` — 技巧文章 Markdown 解析为 JSON
+  - `utils.ts` — 解析工具函数（标题提取、段落提取、食材/步骤解析等）
+- **被依赖**: `npm run sync` 命令
+
+### Markdown 渲染样式
+
+- **别名**: markdown CSS、recipe-markdown
+- **主要目录**: `src/styles/index.css`（`.recipe-markdown` 选择器）
+- **说明**: 为 marked 渲染的 HTML 提供完整样式，覆盖标题、列表、引用、代码块、表格、图片等
+- **被依赖**: `RecipePage`, `TipArticlePage`
+
+### 部署配置
+
+- **别名**: Vercel 配置
+- **主要目录**: `vercel.json`
+- **说明**: Vercel 部署配置，指定 Vite 框架、构建命令、输出目录和 SPA 路由重写规则
