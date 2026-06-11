@@ -83,8 +83,8 @@ export function HomePage() {
 
       {/* 内容区 */}
       <>
-          {/* 分类标签 - 两行网格 */}
-          <div className="grid grid-cols-5 gap-y-5 gap-x-3 mb-6 px-1">
+          {/* 分类标签 */}
+          <div className="grid grid-cols-5 gap-y-5 gap-x-2 mb-8">
             {categories.map((category) => (
               <CategoryTag key={category.id} category={category} />
             ))}
